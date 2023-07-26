@@ -2792,11 +2792,15 @@
 				color: #ffffff;
 			}
 
+			.main.style3 {
+				background: #FFDEF6;
+			}
+
 /* Header */
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
+		background-color: #fff;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
 		background-image: url("images/overlay2.png");
