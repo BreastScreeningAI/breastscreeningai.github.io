@@ -2967,3 +2967,51 @@ ol {
   color: #BFDbff;
   background-color: #fff;
 }
+
+/* Adjust spacing to keep the same layout */
+.single-first-section h3,
+.single-first-section p {
+  margin-top: 20px; /* Adjust this value based on your icon's width */
+}
+
+/* Replace the lni lni-user icon with the image */
+.single-first-section .user-icon-cristina {
+  width: 100px; /* Set the width and height to match the size of your icon */
+  height: 100px;
+  background-image: url("../clinicians/cristina.jpg"); /* Path to your image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  /* Add rounded corners */
+  border-radius: 10%; /* Set this to 50% to make it a perfect circle, adjust as needed */
+  overflow: hidden; /* This ensures that the image stays within the rounded shape */
+}
+
+/* Replace the lni lni-user icon with the image */
+.single-first-section .user-icon-abrantes {
+  width: 100px; /* Set the width and height to match the size of your icon */
+  height: 100px;
+  background-image: url("../clinicians/abrantes.jpg"); /* Path to your image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  /* Add rounded corners */
+  border-radius: 10%; /* Set this to 50% to make it a perfect circle, adjust as needed */
+  overflow: hidden; /* This ensures that the image stays within the rounded shape */
+}
+
+/* Replace the lni lni-user icon with the image */
+.single-first-section .user-icon-gisela {
+  width: 100px; /* Set the width and height to match the size of your icon */
+  height: 100px;
+  background-image: url("../clinicians/gisela.jpg"); /* Path to your image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  /* Add rounded corners */
+  border-radius: 10%; /* Set this to 50% to make it a perfect circle, adjust as needed */
+  overflow: hidden; /* This ensures that the image stays within the rounded shape */
+}
