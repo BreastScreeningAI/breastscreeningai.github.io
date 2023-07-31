@@ -9,11 +9,11 @@ Version: 4.0
 @font-face {
   font-family: 'lineicons';
   src: url('../fonts/lineicons.eot');
-  src: url('../fonts/lineicons.eot') format('embedded-opentype'),
+  src: url('../fonts/lineicons.eot?#iefix') format('embedded-opentype'), /* Add ?#iefix for IE11 support */
        url('../fonts/lineicons.woff2') format('woff2'),
        url('../fonts/lineicons.woff') format('woff'),
        url('../fonts/lineicons.ttf') format('truetype'),
-       url('../fonts/lineicons.svg') format('svg');
+       url('../fonts/lineicons.svg#lineicons') format('svg'); /* Add #lineicons for better browser support */
 }
 
 /* base class */
