@@ -131,3 +131,9 @@ dist
 
 # macOS files
 .DS_Store
+
+# Windows files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
