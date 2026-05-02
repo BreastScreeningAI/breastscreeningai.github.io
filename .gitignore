@@ -136,4 +136,4 @@ dist
 .vscode/
 .idea/
 *.sublime-project
-*.sublime-workspace
+*.sublime-workspace.DS_Store
