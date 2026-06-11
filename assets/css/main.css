@@ -2673,7 +2673,7 @@ ol {
 
 .footer .single-footer.f-about .social li {
   display: inline-block;
-  margin-right: 17px;
+  margin-right: 28px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2694,7 +2694,8 @@ ol {
 
 .footer .single-footer.f-about .social li a {
   color: #D2D6DC;
-  font-size: 15px;
+  font-size: 32px;
+  line-height: 1;
 }
 
 .footer .single-footer.f-about .social li a:hover {
@@ -2709,6 +2710,8 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 32px;
+  flex-wrap: nowrap;
   margin: 38px auto 0;
   width: 100%;
   max-width: 820px;
@@ -2716,16 +2719,32 @@ ol {
 
 .footer .footer-recognition img {
   display: block;
-  width: min(100%, 820px);
+  width: auto;
   height: auto;
-  max-height: 140px;
   object-fit: contain;
   object-position: center;
 }
 
+.footer .footer-recognition .footer-recognition-startup {
+  max-width: min(58%, 470px);
+  max-height: 120px;
+}
+
+.footer .footer-recognition .footer-recognition-fct {
+  max-width: min(36%, 290px);
+  max-height: 120px;
+}
+
 @media (max-width: 767px) {
   .footer .footer-recognition {
+    flex-wrap: wrap;
+    gap: 24px;
     margin-top: 30px;
+  }
+
+  .footer .footer-recognition .footer-recognition-startup,
+  .footer .footer-recognition .footer-recognition-fct {
+    max-width: 100%;
   }
 }
 
