@@ -2705,6 +2705,30 @@ ol {
   margin: 0;
 }
 
+.footer .footer-recognition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 38px auto 0;
+  width: 100%;
+  max-width: 820px;
+}
+
+.footer .footer-recognition img {
+  display: block;
+  width: min(100%, 820px);
+  height: auto;
+  max-height: 140px;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media (max-width: 767px) {
+  .footer .footer-recognition {
+    margin-top: 30px;
+  }
+}
+
 .footer .single-footer.f-about .copyright-text {
   color: #D2D6DC;
   font-size: 14px;
