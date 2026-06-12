@@ -691,7 +691,7 @@
                         <a href="https://github.com/BreastScreeningAI/meta/wiki" target="_blank">Documentation</a>
                       </li>
                       <li>
-                        <a href="javascript:void(0)" target="_blank">Live Support</a>
+                        <a href="#live-support" id="live-support-link">Live Support</a>
                       </li>
                     </ul>
                   </div>
@@ -748,6 +748,32 @@
     <script src="assets/js/glightbox.min.js"></script>
     <script src="assets/js/count-up.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+      (function () {
+        var liveSupportLink = document.getElementById("live-support-link");
+
+        function openHubSpotChat() {
+          if (window.HubSpotConversations) {
+            window.HubSpotConversations.widget.open();
+          }
+        }
+
+        liveSupportLink.addEventListener("click", function (event) {
+          event.preventDefault();
+
+          if (window.HubSpotConversations) {
+            openHubSpotChat();
+            return;
+          }
+
+          window.hsConversationsOnReady = window.hsConversationsOnReady || [];
+          window.hsConversationsOnReady.push(openHubSpotChat);
+        });
+      })();
+    </script>
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/866408.js"></script>
+    <!-- End of HubSpot Embed Code -->
     <script type="text/javascript">
       //====== counter up 
       var cu = new counterUp({
