@@ -2740,6 +2740,13 @@ ol {
 .footer .footer-partner {
   display: flex;
   flex: 1 1 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer-partner-logo {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -2752,6 +2759,17 @@ ol {
   height: auto;
   object-fit: contain;
   object-position: center;
+}
+
+.footer .footer-partner-download {
+  color: #D2D6DC;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.footer .footer-partner-download:hover {
+  color: #BFDbff;
 }
 
 @media (max-width: 767px) {
