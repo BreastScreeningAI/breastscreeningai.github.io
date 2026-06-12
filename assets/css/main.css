@@ -1121,6 +1121,16 @@ ol {
   display: none;
 }
 
+.story-intro .section-title {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.story-intro .section-title p {
+  margin: 0 auto;
+  max-width: 720px;
+}
+
 .section-title.align-right h2:after {
   position: absolute;
   right: 0;
@@ -2620,6 +2630,16 @@ ol {
   padding: 100px 0;
 }
 
+@media (min-width: 1200px) {
+  .footer .footer-top > .container {
+    max-width: 1320px;
+  }
+
+  .footer .single-footer.f-link a[href*="terms_and_conditions"] {
+    white-space: nowrap;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer .footer-top {
     padding: 80px 0;
@@ -2706,7 +2726,7 @@ ol {
   margin: 0;
 }
 
-.footer .footer-recognition {
+.footer .footer-partners {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2717,34 +2737,32 @@ ol {
   max-width: 820px;
 }
 
-.footer .footer-recognition img {
+.footer .footer-partner {
+  display: flex;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer-partner img {
   display: block;
+  max-width: 100%;
+  max-height: 120px;
   width: auto;
   height: auto;
   object-fit: contain;
   object-position: center;
 }
 
-.footer .footer-recognition .footer-recognition-startup {
-  max-width: min(58%, 470px);
-  max-height: 120px;
-}
-
-.footer .footer-recognition .footer-recognition-fct {
-  max-width: min(36%, 290px);
-  max-height: 120px;
-}
-
 @media (max-width: 767px) {
-  .footer .footer-recognition {
+  .footer .footer-partners {
     flex-wrap: wrap;
     gap: 24px;
     margin-top: 30px;
   }
 
-  .footer .footer-recognition .footer-recognition-startup,
-  .footer .footer-recognition .footer-recognition-fct {
-    max-width: 100%;
+  .footer .footer-partner {
+    flex-basis: 100%;
   }
 }
 
