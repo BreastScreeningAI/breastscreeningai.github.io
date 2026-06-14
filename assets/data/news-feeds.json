@@ -1,0 +1,22 @@
+{
+  "maximumFeedItems": 20,
+  "excludeTitlePatterns": [
+    "^coming soon$",
+    "^test( post)?$"
+  ],
+  "feeds": [
+    {
+      "name": "BreastScreening-AI Newsletter",
+      "url": "https://breastscreeningai.substack.com/feed",
+      "type": "News",
+      "enabled": true
+    },
+    {
+      "name": "Google News",
+      "url": "https://news.google.com/rss/search?q=%22BreastScreening-AI%22%20OR%20%22SensiPerception%22&hl=en&gl=US&ceid=US:en",
+      "type": "Media coverage",
+      "enabled": false,
+      "reason": "Discovery source only; enable after defining a review process for relevance and duplicate coverage."
+    }
+  ]
+}

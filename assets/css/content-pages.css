@@ -45,9 +45,10 @@
 .news-entry { display: grid; gap: 42px; grid-template-columns: 190px minmax(0, 1fr); padding: 34px; }
 .news-entry + .news-entry { border-top: 1px solid #dfe5ec; }
 .news-entry p { color: #506176; font-size: 15px; line-height: 1.7; margin-bottom: 16px; }
-.news-date span, .news-date time { display: block; }
+.news-date span, .news-date time, .news-date small { display: block; }
 .news-date span { color: #da4f91; font-size: 12px; font-weight: 700; margin-bottom: 8px; text-transform: uppercase; }
 .news-date time { color: #66758a; font-size: 14px; }
+.news-date small { color: #7d8795; font-size: 12px; line-height: 1.5; margin-top: 8px; }
 
 @media (max-width: 767px) {
   .content-hero { padding: 64px 0 68px; }

@@ -65,7 +65,8 @@
         day: "numeric", month: "long", year: "numeric"
       });
       return '<article class="news-entry">' +
-        '<div class="news-date"><span>' + escapeHtml(item.type) + "</span><time datetime=\"" + escapeHtml(item.date) + '\">' + escapeHtml(date) + "</time></div>" +
+        '<div class="news-date"><span>' + escapeHtml(item.type) + "</span><time datetime=\"" + escapeHtml(item.date) + '\">' + escapeHtml(date) + "</time>" +
+        (item.source ? '<small>' + escapeHtml(item.source) + "</small>" : "") + "</div>" +
         '<div><h2>' + escapeHtml(item.title) + "</h2><p>" + escapeHtml(item.summary) + "</p>" +
         '<a class="content-link" href="' + escapeHtml(item.url) + '"' + externalAttributes(item.url) + ">" + escapeHtml(item.linkLabel) + ' <i class="lni lni-arrow-top-right"></i></a></div>' +
         "</article>";
@@ -80,7 +81,9 @@
       if (!response.ok) throw new Error("Content could not be loaded.");
       return response.json();
     })
-    .then(function (items) {
+    .then(function (payload) {
+      var items = Array.isArray(payload) ? payload : payload.items;
+      if (!Array.isArray(items)) throw new Error("Content has an invalid format.");
       if (document.getElementById("publication-list")) renderPublications(items);
       if (document.getElementById("news-list")) renderNews(items);
     })
