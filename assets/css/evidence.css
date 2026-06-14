@@ -566,8 +566,8 @@
 
 .secondary-footer-grid {
   display: grid;
-  gap: 48px;
-  grid-template-columns: minmax(260px, 1.4fr) repeat(3, minmax(140px, 0.7fr));
+  gap: 32px;
+  grid-template-columns: minmax(220px, 1.2fr) repeat(5, minmax(110px, 0.75fr));
 }
 
 .secondary-footer-brand img { height: auto; margin-bottom: 22px; width: 190px; }
