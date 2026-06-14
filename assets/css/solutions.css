@@ -137,6 +137,72 @@
 .solution-card h3 { margin-bottom: 12px; }
 .solution-card p { font-size: 14px; line-height: 1.65; }
 
+.metric-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.metric-card {
+  background: #fff;
+  border: 1px solid #dbe5f1;
+  box-shadow: 0 12px 30px rgba(16, 35, 60, 0.06);
+  display: flex;
+  flex-direction: column;
+  min-height: 290px;
+  padding: 28px;
+}
+
+.metric-value {
+  color: #da4f91;
+  display: block;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 18px;
+}
+
+.metric-card h3 { font-size: 19px; margin-bottom: 12px; }
+.metric-card p { flex: 1; font-size: 14px; line-height: 1.65; }
+.metric-card a, .evidence-comparison a {
+  color: #315f9f;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.metric-card a:hover, .evidence-comparison a:hover { color: #da4f91; }
+
+.metric-note {
+  background: #10233c;
+  color: #d7e1ec !important;
+  margin: 24px 0 0;
+  padding: 22px 26px;
+}
+.metric-note strong { color: #fff; }
+
+.evidence-comparison {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.evidence-comparison article {
+  border: 1px solid #dfe5ec;
+  border-left: 4px solid #5f8fd8;
+  padding: 30px;
+}
+.evidence-comparison article:nth-child(2n) { border-left-color: #36a887; }
+.evidence-comparison h3 { margin: 10px 0 14px; }
+.evidence-comparison p { font-size: 14px; }
+.evidence-year {
+  color: #da4f91;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.platform-status { margin-top: 28px; }
+
 .principle-grid {
   background: rgba(255, 255, 255, 0.14);
   display: grid;
@@ -213,7 +279,7 @@
 .solution-cta .btn:hover { background: #fff; color: #081828; }
 
 @media (max-width: 991px) {
-  .solution-grid, .principle-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .solution-grid, .principle-grid, .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .workflow-track { grid-template-columns: 1fr; gap: 16px; }
   .workflow-step + .workflow-step { border-left: 1px solid #dfe5ec; }
   .workflow-step:not(:last-child)::after { bottom: -17px; content: "\2193"; right: 32px; top: auto; }
@@ -226,7 +292,8 @@
   .solution-lead { font-size: 17px; }
   .solution-section { padding: 68px 0; }
   .solution-section h2 { font-size: 30px; }
-  .solution-grid, .principle-grid, .boundary-grid, .status-panel { grid-template-columns: 1fr; }
+  .solution-grid, .principle-grid, .boundary-grid, .status-panel, .metric-grid, .evidence-comparison { grid-template-columns: 1fr; }
   .solution-card { min-height: 0; }
+  .metric-card { min-height: 0; }
   .status-fact { border-left: 0; border-top: 1px solid #dfe5ec; padding-left: 0; padding-top: 28px; }
 }
