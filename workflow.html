@@ -23,99 +23,126 @@
       <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="index.html"><img src="assets/images/logo/logo-bs-main.svg" alt="BreastScreening-AI" /></a>
         <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="toggler-icon"></span><span class="toggler-icon"></span><span class="toggler-icon"></span></button>
-        <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent"><ul id="nav" class="navbar-nav ms-auto"><li class="nav-item"><a href="#workflow">Workflow</a></li><li class="nav-item"><a href="#modalities">Modalities</a></li><li class="nav-item"><a href="#impact">Impact</a></li></ul></div>
+        <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent"><ul id="nav" class="navbar-nav ms-auto"><li class="nav-item"><a href="#map">Map</a></li><li class="nav-item"><a href="#modalities">Modalities</a></li><li class="nav-item"><a href="#metrics">Metrics</a></li></ul></div>
         <div class="button add-list-button"><a href="index.html" class="btn"><i class="lni lni-arrow-left"></i> Main Site</a></div>
       </nav>
     </div></div></div></div></header>
 
     <main>
       <section class="solution-hero" aria-labelledby="workflow-title"><div class="container">
-        <p class="solution-kicker">Workflow</p><h1 id="workflow-title">A measurable operating model for multimodal breast imaging</h1>
-        <p class="solution-lead">BreastScreening-AI is designed to help providers move from isolated image review toward a coordinated workflow across mammography, ultrasound and MRI. The business goal is to release specialist capacity, reduce avoidable variation and make AI adoption measurable without transferring clinical authority to software.</p>
-        <div class="solution-tags" aria-label="Workflow characteristics"><span>MG, US and MRI pathway</span><span>Clinician-controlled AI</span><span>Capacity modeling</span><span>Quality support</span></div>
+        <p class="solution-kicker">Workflow</p><h1 id="workflow-title">How BreastScreening-AI fits into the imaging day</h1>
+        <p class="solution-lead">This page is the implementation playbook: what happens before the read, where MG, US and MRI enter the pathway, when AI assistance appears, who remains accountable and which operational metrics a provider should track during validation.</p>
+        <div class="solution-tags" aria-label="Workflow characteristics"><span>Operational playbook</span><span>MG to US to MRI</span><span>Decision checkpoints</span><span>Deployment metrics</span></div>
       </div></section>
 
-      <nav class="solution-subnav" aria-label="Workflow sections"><div class="container"><a href="#workflow">Operating pathway</a><a href="#modalities">MG, US &amp; MRI</a><a href="#value">Workflow value</a><a href="#impact">Workflow impact</a><a href="#evidence">Evidence</a><a href="#adoption">Adoption</a></div></nav>
+      <nav class="solution-subnav" aria-label="Workflow sections"><div class="container"><a href="#map">Before and after</a><a href="#workflow">Pathway map</a><a href="#modalities">MG, US &amp; MRI</a><a href="#decision-loop">Decision loop</a><a href="#roles">Roles</a><a href="#metrics">Metrics</a><a href="#deployment">Deployment</a></div></nav>
 
-      <section id="workflow" class="solution-section white"><div class="container">
-        <div class="solution-heading"><p class="solution-label">Operating pathway</p><h2>From case intake to accountable decision</h2><p>This pathway describes the product workflow being designed and evaluated. It is a commercial workflow model, not a statement that every component is deployed or authorized in routine care.</p></div>
-        <div class="workflow-track workflow-track-six" aria-label="Six-step multimodal breast imaging workflow">
-          <article class="workflow-step"><span class="workflow-number">Step 1</span><h3>Prepare the case</h3><p>Route the patient, indication, prior imaging and available metadata into a controlled review environment so the clinician begins with a structured case context.</p></article>
-          <article class="workflow-step"><span class="workflow-number">Step 2</span><h3>Review MG</h3><p>Mammography anchors screening and first-line detection. AI support is positioned around reading efficiency, suspicious-region attention and consistency checks.</p></article>
-          <article class="workflow-step"><span class="workflow-number">Step 3</span><h3>Add US when indicated</h3><p>Ultrasound supports targeted characterization, dense-breast assessment, palpable findings and biopsy guidance, creating a richer picture than mammography alone.</p></article>
-          <article class="workflow-step"><span class="workflow-number">Step 4</span><h3>Use MRI selectively</h3><p>MRI adds high-sensitivity assessment for selected high-risk screening, disease extent, treatment planning and problem-solving when other modalities are insufficient.</p></article>
-          <article class="workflow-step"><span class="workflow-number">Step 5</span><h3>Reconcile AI and clinician judgement</h3><p>The clinician compares the initial assessment, AI outputs and multimodal evidence, then accepts, rejects or disregards assistance before final interpretation.</p></article>
-          <article class="workflow-step"><span class="workflow-number">Step 6</span><h3>Document and measure</h3><p>The final decision remains clinician-led, while time, decision changes, disagreement, trust and usability can be measured for local value assessment.</p></article>
+      <section id="map" class="solution-section white"><div class="container">
+        <div class="solution-heading"><p class="solution-label">Before and after</p><h2>Different page, different job: this is the operating room of the product story</h2><p>The platform page explains what the product is and why it matters commercially. The workflow page should show how a site would actually run, evaluate and govern the product in practice.</p></div>
+        <div class="contrast-flow" aria-label="Before and after workflow comparison">
+          <article>
+            <span class="flow-badge">Current fragmentation</span>
+            <h3>Disconnected review</h3>
+            <ol>
+              <li>MG, US and MRI are often reviewed in separate moments.</li>
+              <li>AI tools, when present, may sit outside the main reporting habit.</li>
+              <li>Time, disagreement and decision changes are rarely measured consistently.</li>
+              <li>Procurement teams struggle to connect AI performance to local workflow value.</li>
+            </ol>
+          </article>
+          <article class="after">
+            <span class="flow-badge">Target workflow</span>
+            <h3>Measured decision loop</h3>
+            <ol>
+              <li>Case context, imaging and AI outputs enter one validation pathway.</li>
+              <li>The clinician reviews first, then reconciles AI support with judgement.</li>
+              <li>Every handoff records time, modality, decision status and accountability.</li>
+              <li>Operational value is tested with site-specific KPIs before scale-up.</li>
+            </ol>
+          </article>
         </div>
       </div></section>
 
-      <section id="modalities" class="solution-section soft-green"><div class="container">
-        <div class="solution-heading"><p class="solution-label">Why multimodality</p><h2>Radiology needs MG, US and MRI because each answers a different business and clinical question</h2><p>No single modality covers population screening, lesion characterization, dense-tissue assessment, disease extent and treatment planning equally well. A scalable breast-imaging platform must therefore connect the pathway while respecting indication-specific use.</p></div>
-        <div class="evidence-comparison modality-comparison">
-          <article><span class="evidence-year">MG</span><h3>Mammography: scalable screening foundation</h3><p>Mammography is the population-screening anchor and can reveal early findings such as calcifications. Its scale makes small reading-time gains commercially meaningful across high-volume programs.</p><p><strong>Workflow value:</strong> standardize first-line review, prioritize attention and measure reader-AI disagreement.</p></article>
-          <article><span class="evidence-year">US</span><h3>Ultrasound: targeted characterization layer</h3><p>Ultrasound helps distinguish solid, cystic and mixed findings, supports assessment of palpable abnormalities and can guide biopsy. It is especially useful as a complementary modality rather than a replacement for mammography.</p><p><strong>Workflow value:</strong> clarify next steps, reduce fragmented handoffs and connect diagnostic workup to the initial review.</p></article>
-          <article><span class="evidence-year">MRI</span><h3>MRI: high-sensitivity problem solving</h3><p>MRI adds detailed contrast-enhanced information for selected high-risk screening, disease extent, treatment planning and unresolved diagnostic questions.</p><p><strong>Workflow value:</strong> coordinate advanced imaging decisions, support complex-case review and make escalation criteria more traceable.</p></article>
-          <article><span class="evidence-year">Pathway</span><h3>Combined value: fewer isolated decisions</h3><p>A multimodal workflow lets providers evaluate the full imaging journey rather than separate tools for separate exams. This supports procurement, governance and performance monitoring across the breast-care pathway.</p><p><strong>Business value:</strong> one adoption program, one measurement model and a clearer route to budget-impact analysis.</p></article>
+      <section id="workflow" class="solution-section soft-green"><div class="container">
+        <div class="solution-heading"><p class="solution-label">Pathway map</p><h2>MG first, US when needed, MRI when the question becomes complex</h2><p>This diagram makes the page operational: it describes the intended flow of information and responsibility. It is not a claim that every patient receives every modality.</p></div>
+        <div class="pathway-map" aria-label="Multimodal breast imaging pathway">
+          <article class="pathway-node intake"><span>01</span><h3>Case intake</h3><p>Patient context, indication, prior exams and site protocol.</p></article>
+          <article class="pathway-node mg"><span>02</span><h3>MG review</h3><p>Screening foundation and first-line comparison.</p></article>
+          <article class="pathway-decision"><h3>Question remains?</h3><p>Dense tissue, palpable finding, lesion characterization or discordant evidence.</p></article>
+          <article class="pathway-node us"><span>03</span><h3>US workup</h3><p>Targeted characterization and biopsy guidance.</p></article>
+          <article class="pathway-decision"><h3>Need extent or high-sensitivity view?</h3><p>High-risk screening, staging, treatment planning or unresolved findings.</p></article>
+          <article class="pathway-node mri"><span>04</span><h3>MRI escalation</h3><p>Complex-case assessment and disease extent.</p></article>
+          <article class="pathway-node ai"><span>05</span><h3>AI checkpoint</h3><p>Second-reader signal, explanation and disagreement flag.</p></article>
+          <article class="pathway-node final"><span>06</span><h3>Clinician decision</h3><p>Final interpretation, documentation and measurable audit trail.</p></article>
+        </div>
+      </div></section>
+
+      <section id="modalities" class="solution-section white"><div class="container">
+        <div class="solution-heading"><p class="solution-label">Modality logic</p><h2>Why each modality earns its place in the workflow</h2><p>The platform page says BreastScreening-AI is multimodal. This table explains how multimodality changes the clinical operation.</p></div>
+        <div class="workflow-table-wrap">
+          <table class="workflow-table">
+            <thead><tr><th>Modality</th><th>Primary workflow role</th><th>Why radiology needs it</th><th>Where AI can help during validation</th></tr></thead>
+            <tbody>
+              <tr><td><strong>MG</strong><span>Mammography</span></td><td>Population screening and first-line review</td><td>Scalable entry point for early detection, including findings such as calcifications.</td><td>Reading-time measurement, suspicious-region attention, disagreement detection.</td></tr>
+              <tr><td><strong>US</strong><span>Ultrasound</span></td><td>Targeted diagnostic characterization</td><td>Clarifies palpable or imaging-detected abnormalities and can guide biopsy.</td><td>Workup prioritization, lesion-context organization, follow-up decision traceability.</td></tr>
+              <tr><td><strong>MRI</strong><span>Magnetic resonance imaging</span></td><td>High-sensitivity escalation for selected cases</td><td>Adds detail for high-risk screening, disease extent and treatment planning questions.</td><td>Complex-case review support, escalation criteria audit, multimodal evidence consolidation.</td></tr>
+            </tbody>
+          </table>
         </div>
         <p class="source-note">Clinical context: <a href="https://www.who.int/news-room/fact-sheets/detail/breast-cancer" target="_blank" rel="noopener noreferrer">WHO breast cancer fact sheet</a>, <a href="https://www.radiologyinfo.org/en/info/mammo" target="_blank" rel="noopener noreferrer">mammography</a>, <a href="https://www.radiologyinfo.org/en/info/breastus" target="_blank" rel="noopener noreferrer">breast ultrasound</a> and <a href="https://www.radiologyinfo.org/en/info/breastmr" target="_blank" rel="noopener noreferrer">breast MRI</a>. Modality choice remains patient-, indication- and protocol-specific.</p>
       </div></section>
 
-      <section id="value" class="solution-section white"><div class="container">
-        <div class="solution-heading"><p class="solution-label">Workflow value</p><h2>Six operational levers for providers and imaging networks</h2><p>The workflow is designed to make clinical AI commercially useful by connecting performance to staffing, throughput, governance and quality measurement.</p></div>
-        <div class="solution-grid">
-          <article class="solution-card"><i class="lni lni-timer"></i><h3>Capacity release</h3><p>Published experimental task-time reduction creates a basis for local capacity modeling and staffing scenarios.</p></article>
-          <article class="solution-card"><i class="lni lni-checkmark-circle"></i><h3>Quality support</h3><p>Lower false-positive and false-negative proportions in controlled research point to quality levers that need prospective validation before routine claims.</p></article>
-          <article class="solution-card"><i class="lni lni-network"></i><h3>Pathway coordination</h3><p>MG, US and MRI can be managed as connected workflow decisions instead of isolated imaging events.</p></article>
-          <article class="solution-card"><i class="lni lni-users"></i><h3>Team adoption</h3><p>Personalized interaction evidence supports a rollout strategy for mixed-experience teams, not only expert users.</p></article>
-          <article class="solution-card"><i class="lni lni-stats-up"></i><h3>Measurable procurement</h3><p>Time, disagreement, decision change, trust and usability can be captured as buyer-relevant outcomes.</p></article>
-          <article class="solution-card"><i class="lni lni-shield"></i><h3>Controlled governance</h3><p>Human oversight, traceability and deployment gates help buyers evaluate AI without weakening clinical accountability.</p></article>
+      <section id="decision-loop" class="solution-section dark"><div class="container">
+        <div class="solution-heading"><p class="solution-label">Clinician-AI decision loop</p><h2>The product should interrupt only where a decision can improve</h2><p>The operational design separates initial judgement, AI assistance, reconciliation and final responsibility. That separation is what makes the workflow measurable and governable.</p></div>
+        <div class="loop-diagram" aria-label="Clinician AI decision loop">
+          <article><span>1</span><h3>Initial read</h3><p>Clinician reviews case before seeing AI output when the protocol requires independent baseline measurement.</p></article>
+          <article><span>2</span><h3>AI signal</h3><p>System provides classification, localization, explanation or confidence signal according to validated intended use.</p></article>
+          <article><span>3</span><h3>Disagreement check</h3><p>Clinician compares findings and identifies whether AI changes attention, certainty or next step.</p></article>
+          <article><span>4</span><h3>Final decision</h3><p>Clinician records final assessment; the workflow records timing, change and accountability.</p></article>
         </div>
       </div></section>
 
-      <section id="impact" class="solution-section dark"><div class="container">
-        <div class="solution-heading"><p class="solution-label">Modeled workflow impact</p><h2>How measured workflow gains can scale operationally</h2><p>The following scenarios apply the published 69-second mean task-time difference to annual review volumes. They show potential capacity value, not guaranteed savings, ROI, reimbursement value or clinical performance in routine care.</p></div>
-        <div class="metric-grid impact-grid">
-          <article class="metric-card"><span class="metric-value">1,917 hours</span><h3>Per 100,000 annual reviews</h3><p>A 69-second reduction per review equals about 1.2 full-time-equivalent years of potential specialist capacity, assuming 1,600 productive hours per FTE-year.</p></article>
-          <article class="metric-card"><span class="metric-value">19,167 hours</span><h3>Per 1 million annual reviews</h3><p>At screening-program scale, the same effect equals approximately 12 FTE-years of gross released capacity before implementation costs.</p></article>
-          <article class="metric-card"><span class="metric-value">€1.4m–€2.9m</span><h3>Illustrative value per 1 million reviews</h3><p>Using an assumed fully loaded specialist-hour value of €75–€150, one million reviews implies this gross capacity value.</p></article>
-          <article class="metric-card"><span class="metric-value">191,667 hours</span><h3>At 10 million annual reviews</h3><p>A large network or national-scale scenario equals approximately 120 FTE-years of potential capacity.</p></article>
-          <article class="metric-card"><span class="metric-value">€14.4m–€28.8m</span><h3>Illustrative value at 10 million reviews</h3><p>This applies the same hourly assumption to 10 million reviews. It is capacity value, not cash released to the budget.</p></article>
-          <article class="metric-card"><span class="metric-value">2.3 million</span><h3>Global diagnoses in 2022</h3><p>WHO estimated 2.3 million women diagnosed with breast cancer and 670,000 deaths globally in 2022, reinforcing the need for scalable early-detection workflows.</p><a href="https://www.who.int/news-room/fact-sheets/detail/breast-cancer" target="_blank" rel="noopener noreferrer">Review WHO context <i class="lni lni-arrow-top-right"></i></a></article>
-        </div>
-        <div class="impact-method"><h3>Transparent model</h3><p><strong>Capacity hours</strong> = annual reviews × 69 seconds ÷ 3,600. <strong>FTE-years</strong> = capacity hours ÷ 1,600. <strong>Gross capacity value</strong> = capacity hours × assumed €75–€150 specialist hour.</p><p>False-positive and false-negative improvements are not converted into avoided biopsies, recalls, treatment costs or mortality gains here because the controlled research figures require prospective validation and local pathway data before downstream economic claims are responsible.</p></div>
-      </div></section>
-
-      <section id="integration" class="solution-section white"><div class="container">
-        <div class="solution-heading"><p class="solution-label">Integration context</p><h2>Designed to meet the workflow where it operates</h2><p>Clinical AI depends on more than a model. Useful evaluation requires imaging access, identity and permission controls, interface fit, secure infrastructure, traceable outputs and institution-specific governance.</p></div>
-        <div class="principle-grid">
-          <article><h3>Clinical systems</h3><p>Research integrations may involve PACS-adjacent environments or approved application platforms, depending on the site.</p></article>
-          <article><h3>Case preparation</h3><p>Study datasets and identifiers require protocol-led selection, de-identification and controlled handling.</p></article>
-          <article><h3>Access controls</h3><p>Permissions, network configuration and user access must be agreed with the participating institution.</p></article>
-          <article><h3>Interface validation</h3><p>Display, navigation and interaction changes are tested because they can affect study validity and clinical use.</p></article>
-          <article><h3>Traceability</h3><p>Research activities should distinguish the clinician's input, AI output, final decision and relevant context.</p></article>
-          <article><h3>Local governance</h3><p>Ethics, privacy, cybersecurity and clinical responsibilities remain specific to each deployment or study.</p></article>
+      <section id="roles" class="solution-section white"><div class="container">
+        <div class="solution-heading"><p class="solution-label">Roles and responsibilities</p><h2>Who does what when the workflow is tested</h2><p>This table makes the page useful for implementation conversations with hospitals, imaging centers and research partners.</p></div>
+        <div class="workflow-table-wrap">
+          <table class="workflow-table role-table">
+            <thead><tr><th>Role</th><th>Operational responsibility</th><th>What the workflow must provide</th><th>What should be measured</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Radiologist</strong></td><td>Interpret imaging and finalize the clinical assessment.</td><td>Clear AI output, override ability, explanation and audit trail.</td><td>Time, confidence, decision change, disagreement and usability.</td></tr>
+              <tr><td><strong>Technologist</strong></td><td>Acquire images and support protocol completeness.</td><td>Case readiness signals and modality-specific preparation checks.</td><td>Repeat exams, missing data, handoff friction and acquisition delays.</td></tr>
+              <tr><td><strong>Clinical lead</strong></td><td>Define local validation protocol and acceptance criteria.</td><td>Cohort rules, escalation criteria and performance dashboards.</td><td>Safety events, reader variation, adherence and quality indicators.</td></tr>
+              <tr><td><strong>IT and governance</strong></td><td>Manage access, integration, cybersecurity and data handling.</td><td>Identity controls, traceability, logging and deployment gates.</td><td>Access issues, uptime, audit completeness and incident response.</td></tr>
+              <tr><td><strong>Operations buyer</strong></td><td>Assess workflow value and scale-up decision.</td><td>Local KPI baseline, scenario model and implementation cost view.</td><td>Capacity hours, bottlenecks, throughput, training burden and budget impact.</td></tr>
+            </tbody>
+          </table>
         </div>
       </div></section>
 
-      <section id="evidence" class="solution-section soft-blue"><div class="container">
-        <div class="solution-heading"><p class="solution-label">Evidence context</p><h2>Workflow claims grounded in current quantitative evidence</h2><p>The current evidence supports evaluation of capacity, quality support and adoption. It does not yet prove real-world clinical efficacy, customer ROI or health-system savings.</p></div>
-        <div class="metric-grid">
-          <article class="metric-card"><span class="metric-value">45</span><h3>Clinicians across nine institutions</h3><p>The principal clinician-AI study compared clinician-only and clinician-AI scenarios across a multi-institution reader sample.</p><a href="https://doi.org/10.1016/j.artmed.2022.102285" target="_blank" rel="noopener noreferrer">Read the study <i class="lni lni-arrow-top-right"></i></a></article>
-          <article class="metric-card"><span class="metric-value">18.3%</span><h3>Lower mean task time</h3><p>Mean task time decreased from 377 to 308 seconds, a 69-second difference that underpins the workflow capacity scenarios above.</p><a href="https://doi.org/10.1016/j.artmed.2022.102285" target="_blank" rel="noopener noreferrer">Inspect the publication <i class="lni lni-arrow-top-right"></i></a></article>
-          <article class="metric-card"><span class="metric-value">54% to 27%</span><h3>False-positive proportion</h3><p>False-positive classifications decreased in the controlled study, supporting a quality hypothesis for future prospective validation.</p><a href="evidence.html#clinical-results">Review evidence context <i class="lni lni-arrow-right"></i></a></article>
-          <article class="metric-card"><span class="metric-value">6% to 2%</span><h3>False-negative proportion</h3><p>False-negative classifications decreased under the experimental clinician-AI condition, but this should not be generalized as routine-care detection benefit.</p><a href="evidence.html#clinical-results">Review evidence context <i class="lni lni-arrow-right"></i></a></article>
-          <article class="metric-card"><span class="metric-value">91%</span><h3>Positive clinician response</h3><p>Positive expectations and perceptive satisfaction support adoption planning, training design and customer discovery.</p><a href="https://doi.org/10.1016/j.artmed.2022.102285" target="_blank" rel="noopener noreferrer">Read the study <i class="lni lni-arrow-top-right"></i></a></article>
-          <article class="metric-card"><span class="metric-value">25.3%</span><h3>Faster personalized interaction</h3><p>Mean time decreased from 166.12 to 124.02 seconds with assertiveness-based communication; p = 0.005 and r = 0.49.</p><a href="https://doi.org/10.1145/3544548.3580682" target="_blank" rel="noopener noreferrer">Read the CHI study <i class="lni lni-arrow-top-right"></i></a></article>
+      <section id="metrics" class="solution-section soft-blue"><div class="container">
+        <div class="solution-heading"><p class="solution-label">Measurement plan</p><h2>Use evidence figures as inputs, then validate local workflow value</h2><p>The platform page can carry broad market scenarios. Here, the right question is narrower: what should a hospital measure during a pilot?</p></div>
+        <div class="workflow-table-wrap">
+          <table class="workflow-table kpi-table">
+            <thead><tr><th>KPI</th><th>Starting evidence</th><th>Local validation question</th><th>Business use</th></tr></thead>
+            <tbody>
+              <tr><td>Mean review time</td><td>377 to 308 seconds in controlled research</td><td>Does the same workflow reduce time in this site, modality mix and reader group?</td><td>Capacity planning and staffing model.</td></tr>
+              <tr><td>False-positive proportion</td><td>54% to 27% in controlled research</td><td>Does AI assistance reduce avoidable positive calls without unsafe trade-offs?</td><td>Recall, workup and quality hypothesis.</td></tr>
+              <tr><td>False-negative proportion</td><td>6% to 2% in controlled research</td><td>Does the workflow safely support attention to missed findings in prospective use?</td><td>Safety and clinical governance hypothesis.</td></tr>
+              <tr><td>Adoption response</td><td>91% positive clinician response</td><td>Which training, explanation and interface choices improve acceptance locally?</td><td>Change-management plan.</td></tr>
+              <tr><td>Personalized interaction</td><td>25.3% faster interaction in CHI study</td><td>Which user groups benefit from adapted communication?</td><td>Role-specific onboarding and UX design.</td></tr>
+            </tbody>
+          </table>
         </div>
         <p class="metric-note"><strong>Evidence boundary:</strong> these figures support validation partnerships and workflow modeling. They should not be presented as regulatory clearance, clinical efficacy, fewer biopsies, reduced mortality, improved cancer detection or realized savings.</p>
       </div></section>
 
-      <section id="adoption" class="solution-section soft-green"><div class="container">
-        <div class="solution-heading"><p class="solution-label">Human oversight and adoption</p><h2>Commercial deployment depends on controlled validation</h2><p>The distinction between assistance and authority is essential for safe adoption and credible business development.</p></div>
-        <div class="boundary-grid">
-          <article class="boundary-card"><h3>The workflow may support</h3><ul><li>Organizing multimodal case information.</li><li>Providing an additional AI-assisted perspective.</li><li>Exploring second-reading and triage workflows.</li><li>Measuring time, interaction, trust and decision changes.</li><li>Building customer-specific budget-impact evidence.</li></ul></article>
-          <article class="boundary-card caution"><h3>The workflow does not replace</h3><ul><li>A qualified clinician's interpretation.</li><li>Institutional protocols or multidisciplinary review.</li><li>Formal BI-RADS assessment and clinical judgement.</li><li>Regulatory, safety or quality-management obligations.</li><li>Emergency services, diagnosis or medical advice.</li></ul></article>
+      <section id="deployment" class="solution-section soft-green"><div class="container">
+        <div class="solution-heading"><p class="solution-label">Deployment checklist</p><h2>What must be true before a workflow pilot starts</h2><p>This section makes the workflow page actionable for implementation planning rather than repeating the platform's market story.</p></div>
+        <div class="checklist-board">
+          <article><h3>Clinical protocol</h3><ul><li>Define intended-use boundary.</li><li>Select eligible cases and modalities.</li><li>Agree baseline and AI-assisted reading order.</li><li>Define escalation and review rules.</li></ul></article>
+          <article><h3>Data and systems</h3><ul><li>Confirm PACS/RIS or research-environment access.</li><li>Set de-identification and retention rules.</li><li>Validate image display and metadata completeness.</li><li>Log clinician, AI and final decision states.</li></ul></article>
+          <article><h3>People and governance</h3><ul><li>Train readers and support staff.</li><li>Assign safety, IT and clinical owners.</li><li>Monitor usability, trust and workload.</li><li>Review pilot results before any scale-up.</li></ul></article>
         </div>
+        <div class="status-panel platform-status"><div><h3>Human oversight remains the control point</h3><p>The workflow may organize multimodal information, provide AI-assisted perspective and measure local value. It does not replace a qualified clinician, institutional protocol, BI-RADS assessment, regulatory obligations, diagnosis or medical advice.</p><a href="evidence.html" class="doi-link">Review evidence boundaries <i class="lni lni-arrow-right"></i></a></div><div class="status-fact"><strong>Local first</strong><span>Deployment principle</span><p>Every macro or market estimate must be rebuilt from local volume, staffing, modality mix and implementation-cost data before procurement decisions.</p></div></div>
       </div></section>
 
       <section class="solution-cta"><div class="container"><h2>Explore the platform behind the workflow</h2><p>Review its capabilities, research scope, design principles and current readiness.</p><a href="platform.html" class="btn">Explore platform</a></div></section>

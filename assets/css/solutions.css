@@ -296,6 +296,172 @@
 .modality-comparison article { background: #fff; }
 .modality-comparison strong { color: #10233c; }
 
+.contrast-flow {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.contrast-flow article {
+  background: #f7f9fc;
+  border: 1px solid #dfe5ec;
+  border-top: 5px solid #da4f91;
+  padding: 30px;
+}
+.contrast-flow article.after { border-top-color: #36a887; }
+.contrast-flow h3 { margin: 14px 0 18px; }
+.contrast-flow ol { margin: 0; padding-left: 20px; }
+.contrast-flow li { font-size: 14px; margin-bottom: 12px; }
+.flow-badge {
+  color: #66758a;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.pathway-map {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.pathway-node, .pathway-decision {
+  box-shadow: 0 12px 30px rgba(16, 35, 60, 0.06);
+  min-height: 210px;
+  padding: 26px;
+  position: relative;
+}
+.pathway-node {
+  background: #fff;
+  border-top: 5px solid #5f8fd8;
+}
+.pathway-node span {
+  color: #da4f91;
+  display: block;
+  font-size: 13px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.pathway-node h3, .pathway-decision h3 { margin-bottom: 12px; }
+.pathway-node p, .pathway-decision p { font-size: 14px; line-height: 1.65; }
+.pathway-node.us { border-top-color: #36a887; }
+.pathway-node.mri { border-top-color: #da4f91; }
+.pathway-node.ai { border-top-color: #10233c; }
+.pathway-node.final { border-top-color: #66758a; }
+.pathway-decision {
+  align-items: center;
+  background: #10233c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.pathway-decision h3 { color: #fff; }
+.pathway-decision p { color: #c9d2dc; }
+
+.loop-diagram {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.loop-diagram article {
+  background: #10233c;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  min-height: 230px;
+  padding: 30px;
+  position: relative;
+}
+.loop-diagram article:not(:last-child)::after {
+  color: #da4f91;
+  content: "\2192";
+  font-size: 28px;
+  font-weight: 800;
+  position: absolute;
+  right: -12px;
+  top: 32px;
+  z-index: 2;
+}
+.loop-diagram span {
+  color: #bfdbff;
+  display: block;
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+.loop-diagram h3 { margin-bottom: 14px; }
+.loop-diagram p { font-size: 14px; line-height: 1.65; }
+
+.workflow-table-wrap {
+  background: #fff;
+  border: 1px solid #dfe5ec;
+  overflow-x: auto;
+}
+.workflow-table {
+  border-collapse: collapse;
+  min-width: 860px;
+  width: 100%;
+}
+.workflow-table th {
+  background: #10233c;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  padding: 18px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.workflow-table td {
+  border-bottom: 1px solid #dfe5ec;
+  color: #506176;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 18px;
+  vertical-align: top;
+}
+.workflow-table td strong {
+  color: #10233c;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.workflow-table td span {
+  color: #66758a;
+  display: block;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.workflow-table tbody tr:nth-child(even) { background: #f7f9fc; }
+
+.checklist-board {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.checklist-board article {
+  background: #fff;
+  border-left: 4px solid #36a887;
+  padding: 30px;
+}
+.checklist-board article:nth-child(2) { border-left-color: #5f8fd8; }
+.checklist-board article:nth-child(3) { border-left-color: #da4f91; }
+.checklist-board h3 { margin-bottom: 18px; }
+.checklist-board ul { list-style: none; margin: 0; padding: 0; }
+.checklist-board li {
+  color: #506176;
+  font-size: 14px;
+  line-height: 1.65;
+  margin-bottom: 12px;
+  padding-left: 24px;
+  position: relative;
+}
+.checklist-board li::before {
+  color: #36a887;
+  content: "\2713";
+  font-weight: 800;
+  left: 0;
+  position: absolute;
+}
+
 .boundary-grid { display: grid; gap: 24px; grid-template-columns: 1fr 1fr; }
 .boundary-card { background: #fff; border-left: 4px solid #36a887; padding: 30px; }
 .boundary-card.caution { border-color: #da4f91; }
@@ -314,7 +480,8 @@
 .solution-cta .business-cta-secondary:hover { background: #fff; color: #081828; }
 
 @media (max-width: 991px) {
-  .solution-grid, .principle-grid, .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .solution-grid, .principle-grid, .metric-grid, .pathway-map, .checklist-board { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .loop-diagram { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .workflow-track, .workflow-track-six { grid-template-columns: 1fr; gap: 16px; }
   .workflow-step + .workflow-step { border-left: 1px solid #dfe5ec; }
   .workflow-step:not(:last-child)::after { bottom: -17px; content: "\2193"; right: 32px; top: auto; }
@@ -327,9 +494,11 @@
   .solution-lead { font-size: 17px; }
   .solution-section { padding: 68px 0; }
   .solution-section h2 { font-size: 30px; }
-  .solution-grid, .principle-grid, .boundary-grid, .status-panel, .metric-grid, .evidence-comparison { grid-template-columns: 1fr; }
+  .solution-grid, .principle-grid, .boundary-grid, .status-panel, .metric-grid, .evidence-comparison, .contrast-flow, .pathway-map, .loop-diagram, .checklist-board { grid-template-columns: 1fr; }
   .solution-card { min-height: 0; }
   .metric-card { min-height: 0; }
+  .pathway-node, .pathway-decision, .loop-diagram article { min-height: 0; }
+  .loop-diagram article:not(:last-child)::after { bottom: -22px; content: "\2193"; right: 28px; top: auto; }
   .status-fact { border-left: 0; border-top: 1px solid #dfe5ec; padding-left: 0; padding-top: 28px; }
   .solution-cta .business-cta-secondary { margin-left: 0; }
 }
