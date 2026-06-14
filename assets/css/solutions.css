@@ -431,6 +431,33 @@
 
 .platform-status { margin-top: 28px; }
 
+.evidence-portfolio-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.evidence-chart-grid, .evidence-impact-grid {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 30px;
+}
+.evidence-chart-card, .evidence-impact-card {
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(16, 35, 60, 0.08);
+  padding: 22px;
+}
+.evidence-plot { min-height: 390px; width: 100%; }
+.evidence-method {
+  background: #fff;
+  border-left: 4px solid #5f8fd8;
+  margin-top: 24px;
+  padding: 26px 30px;
+}
+.evidence-method h3 { margin-bottom: 10px; }
+.evidence-method p { font-size: 14px; margin: 0; }
+.evidence-impact-card { background: #142b49; }
+.evidence-impact-card > span { color: #bfdbff; font-size: 12px; font-weight: 800; text-transform: uppercase; }
+.evidence-impact-card h3 { color: #fff; margin: 10px 0 12px; }
+.evidence-impact-card p { color: #c9d2dc; font-size: 14px; }
+.evidence-impact-note a { color: #bfdbff; font-weight: 700; }
+
 .principle-grid {
   background: rgba(255, 255, 255, 0.14);
   display: grid;
@@ -766,7 +793,7 @@
 .solution-cta .business-cta-secondary:hover { background: #fff; color: #081828; }
 
 @media (max-width: 991px) {
-  .solution-grid, .principle-grid, .metric-grid, .pathway-map, .checklist-board, .impact-lab, .modality-flow, .trust-meter, .cost-model-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .solution-grid, .principle-grid, .metric-grid, .evidence-portfolio-grid, .pathway-map, .checklist-board, .impact-lab, .modality-flow, .trust-meter, .cost-model-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .loop-diagram { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .workflow-track, .workflow-track-six { grid-template-columns: 1fr; gap: 16px; }
   .workflow-step + .workflow-step { border-left: 1px solid #dfe5ec; }
@@ -780,7 +807,8 @@
   .solution-lead { font-size: 17px; }
   .solution-section { padding: 68px 0; }
   .solution-section h2 { font-size: 30px; }
-  .solution-grid, .principle-grid, .boundary-grid, .status-panel, .metric-grid, .evidence-comparison, .contrast-flow, .pathway-map, .loop-diagram, .checklist-board, .impact-lab, .modality-flow, .trust-meter, .comparison-bars, .cost-model-grid { grid-template-columns: 1fr; }
+  .solution-grid, .principle-grid, .boundary-grid, .status-panel, .metric-grid, .evidence-portfolio-grid, .evidence-chart-grid, .evidence-impact-grid, .evidence-comparison, .contrast-flow, .pathway-map, .loop-diagram, .checklist-board, .impact-lab, .modality-flow, .trust-meter, .comparison-bars, .cost-model-grid { grid-template-columns: 1fr; }
+  .evidence-plot { min-height: 330px; }
   .solution-card { min-height: 0; }
   .metric-card { min-height: 0; }
   .pathway-node, .pathway-decision, .loop-diagram article { min-height: 0; }
