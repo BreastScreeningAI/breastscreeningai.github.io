@@ -265,6 +265,7 @@
   gap: 0;
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
+.workflow-track-six { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .workflow-step {
   background: #fff;
   border: 1px solid #dfe5ec;
@@ -292,6 +293,8 @@
 .workflow-number { color: #da4f91; font-size: 13px; font-weight: 700; text-transform: uppercase; }
 .workflow-step h3 { font-size: 19px; margin: 20px 0 12px; }
 .workflow-step p { font-size: 14px; line-height: 1.65; }
+.modality-comparison article { background: #fff; }
+.modality-comparison strong { color: #10233c; }
 
 .boundary-grid { display: grid; gap: 24px; grid-template-columns: 1fr 1fr; }
 .boundary-card { background: #fff; border-left: 4px solid #36a887; padding: 30px; }
@@ -312,7 +315,7 @@
 
 @media (max-width: 991px) {
   .solution-grid, .principle-grid, .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .workflow-track { grid-template-columns: 1fr; gap: 16px; }
+  .workflow-track, .workflow-track-six { grid-template-columns: 1fr; gap: 16px; }
   .workflow-step + .workflow-step { border-left: 1px solid #dfe5ec; }
   .workflow-step:not(:last-child)::after { bottom: -17px; content: "\2193"; right: 32px; top: auto; }
   .workflow-step { min-height: 0; }
