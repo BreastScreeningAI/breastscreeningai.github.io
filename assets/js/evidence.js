@@ -52,6 +52,10 @@
       range: [-0.55, 4.55],
       tickvals: [0, 1, 2, 3, 4],
       ticktext: ["Clinical integration", "Model validation", "Clinical evaluation", "Human factors", "Interface design"],
+      tickfont: { size: 13, color: colors.navy },
+      ticks: "outside",
+      ticklen: 18,
+      tickcolor: "rgba(0,0,0,0)",
       fixedrange: true,
       gridcolor: "#edf1f6",
       zeroline: false
@@ -66,6 +70,6 @@
       { x: 2022.5, y: 4.42, text: "EVALUATION", showarrow: false, font: { size: 11, color: colors.green } },
       { x: 2025.45, y: 4.42, text: "INTEGRATION", showarrow: false, font: { size: 11, color: colors.pink } }
     ],
-    margin: { l: 145, r: 34, t: 30, b: 52 }
+    margin: { l: 190, r: 34, t: 30, b: 52 }
   }), config);
 }());

@@ -442,13 +442,25 @@
 .evidence-timeline-plot { min-height: 580px; }
 .ml-validation-flow {
   display: grid;
-  gap: 1px;
+  gap: 18px;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   margin-top: 30px;
 }
 .ml-validation-flow article { background: #10233c; min-height: 210px; padding: 24px; position: relative; }
 .ml-validation-flow article:nth-child(2n) { background: #142b49; }
-.ml-validation-flow article:not(:last-child)::after { color: #36a887; content: "\2192"; font-size: 22px; position: absolute; right: -8px; top: 50%; z-index: 2; }
+.ml-validation-flow article:not(:last-child)::after {
+  color: #36a887;
+  content: "\2192";
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1;
+  position: absolute;
+  right: -28px;
+  text-shadow: 0 0 4px #edf7f4;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
 .ml-validation-flow span { color: #bfdbff; font-size: 13px; font-weight: 800; }
 .ml-validation-flow h3 { color: #fff; margin: 18px 0 10px; }
 .ml-validation-flow p { color: #c9d2dc; font-size: 13px; }
@@ -463,6 +475,21 @@
 .principle-grid article:nth-child(2n) { background: #142b49; }
 .principle-grid h3 { margin-bottom: 12px; }
 .principle-grid p { font-size: 14px; line-height: 1.65; }
+
+#boundaries .principle-grid {
+  background: transparent;
+  gap: 18px;
+}
+#boundaries .principle-grid article {
+  background: #fff;
+  border: 1px solid #dbe5f1;
+  border-top: 5px solid #5f8fd8;
+  box-shadow: 0 12px 30px rgba(16, 35, 60, 0.07);
+}
+#boundaries .principle-grid article:nth-child(2n) { border-top-color: #36a887; }
+#boundaries .principle-grid article:nth-child(3n) { border-top-color: #da4f91; }
+#boundaries .principle-grid h3 { color: #10233c; }
+#boundaries .principle-grid p { color: #405168; }
 
 .status-panel {
   background: #fff;
