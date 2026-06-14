@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import email.utils
+import hashlib
 import html
 import json
 import re
@@ -19,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "assets/data/news-feeds.json"
 MANUAL_PATH = ROOT / "assets/data/news-manual.json"
 OUTPUT_PATH = ROOT / "assets/data/news.json"
+CANDIDATES_PATH = ROOT / "assets/data/news-candidates.json"
 
 
 class TextExtractor(HTMLParser):
@@ -90,6 +92,7 @@ def parse_feed(xml_bytes: bytes, source: dict[str, object]) -> list[dict[str, st
             continue
         description = child_text(entry, "description", "summary", "content", "encoded")
         date = child_text(entry, "pubdate", "published", "updated", "date")
+        publisher = child_text(entry, "source") or str(source.get("name", "RSS feed"))
         items.append(
             {
                 "date": iso_date(date),
@@ -98,7 +101,8 @@ def parse_feed(xml_bytes: bytes, source: dict[str, object]) -> list[dict[str, st
                 "summary": clean_text(description) or "Read the complete update at the original source.",
                 "url": url,
                 "linkLabel": "Read the update",
-                "source": str(source.get("name", "RSS feed")),
+                "source": publisher,
+                "feedSource": str(source.get("name", "RSS feed")),
             }
         )
     return items
@@ -130,27 +134,92 @@ def deduplicate(items: list[dict[str, str]]) -> list[dict[str, str]]:
     return output
 
 
+def candidate_id(item: dict[str, str]) -> str:
+    identity = item.get("url", "") or item.get("title", "")
+    return hashlib.sha256(identity.encode("utf-8")).hexdigest()[:16]
+
+
+def update_candidates(
+    discovered: list[dict[str, str]],
+    manual: list[dict[str, str]],
+) -> list[dict[str, object]]:
+    existing = []
+    if CANDIDATES_PATH.exists():
+        existing = json.loads(CANDIDATES_PATH.read_text(encoding="utf-8"))
+    existing_by_id = {str(item.get("id")): item for item in existing}
+    published_urls = {item.get("url", "").rstrip("/").lower() for item in manual}
+    published_titles = {item.get("title", "").strip().lower() for item in manual}
+    today = datetime.now(timezone.utc).date().isoformat()
+    candidates: list[dict[str, object]] = []
+
+    for item in deduplicate(discovered):
+        if item.get("url", "").rstrip("/").lower() in published_urls:
+            continue
+        if item.get("title", "").strip().lower() in published_titles:
+            continue
+        identifier = candidate_id(item)
+        previous = existing_by_id.get(identifier, {})
+        candidates.append(
+            {
+                "id": identifier,
+                "headline": item.get("title", ""),
+                "publicationDate": item.get("date", ""),
+                "publisher": item.get("source", ""),
+                "summary": item.get("summary", ""),
+                "googleNewsUrl": item.get("url", ""),
+                "originalArticleUrl": previous.get("originalArticleUrl", ""),
+                "feedSource": item.get("feedSource", "Google News"),
+                "firstSeen": previous.get("firstSeen", today),
+                "lastSeen": today,
+                "reviewStatus": previous.get("reviewStatus", "pending"),
+                "reviewer": previous.get("reviewer", ""),
+                "reviewedDate": previous.get("reviewedDate", ""),
+                "relevance": previous.get("relevance", "unassessed"),
+                "decisionReason": previous.get("decisionReason", ""),
+                "editorialNotes": previous.get("editorialNotes", ""),
+            }
+        )
+
+    reviewed_missing = [
+        item for item in existing
+        if str(item.get("id")) not in {str(candidate.get("id")) for candidate in candidates}
+        and item.get("reviewStatus") not in ("", "pending")
+    ]
+    return sorted(candidates + reviewed_missing, key=lambda item: str(item.get("publicationDate", "")), reverse=True)
+
+
 def main() -> int:
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     manual = json.loads(MANUAL_PATH.read_text(encoding="utf-8"))
-    feed_items: list[dict[str, str]] = []
+    automatic_items: list[dict[str, str]] = []
+    review_items: list[dict[str, str]] = []
     failures: list[str] = []
 
     for source in config.get("feeds", []):
         if not source.get("enabled"):
             continue
         try:
-            feed_items.extend(fetch_feed(source))
+            items = fetch_feed(source)
+            if source.get("mode", "automatic") == "review":
+                review_items.extend(items)
+            else:
+                automatic_items.extend(items)
         except Exception as error:  # Preserve approved content when an external feed is unavailable.
             failures.append(f"{source.get('name', 'RSS feed')}: {error}")
 
     maximum = int(config.get("maximumFeedItems", 20))
     patterns = [str(pattern) for pattern in config.get("excludeTitlePatterns", [])]
-    accepted_feed_items = [item for item in feed_items if not excluded(item, patterns)][:maximum]
+    accepted_feed_items = [item for item in automatic_items if not excluded(item, patterns)][:maximum]
     merged = deduplicate(manual + accepted_feed_items)
     OUTPUT_PATH.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    candidates = update_candidates(
+        [item for item in review_items if not excluded(item, patterns)],
+        manual,
+    )
+    CANDIDATES_PATH.write_text(json.dumps(candidates, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(f"Wrote {len(merged)} news items ({len(manual)} approved, {len(accepted_feed_items)} from feeds).")
+    print(f"Wrote {len(candidates)} review candidates.")
     if failures:
         print("Feed warnings: " + "; ".join(failures), file=sys.stderr)
     return 0

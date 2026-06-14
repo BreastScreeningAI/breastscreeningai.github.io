@@ -9,14 +9,16 @@
       "name": "BreastScreening-AI Newsletter",
       "url": "https://breastscreeningai.substack.com/feed",
       "type": "News",
+      "mode": "automatic",
       "enabled": true
     },
     {
       "name": "Google News",
       "url": "https://news.google.com/rss/search?q=%22BreastScreening-AI%22%20OR%20%22SensiPerception%22&hl=en&gl=US&ceid=US:en",
       "type": "Media coverage",
+      "mode": "review",
       "enabled": true,
-      "reason": "Discovery source only; enable after defining a review process for relevance and duplicate coverage."
+      "reason": "Discovery source only. Results are written to news-candidates.json and never published automatically."
     }
   ]
 }
