@@ -137,6 +137,23 @@
 .solution-card h3 { margin-bottom: 12px; }
 .solution-card p { font-size: 14px; line-height: 1.65; }
 
+.modality-code {
+  color: #da4f91;
+  display: block;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  margin-bottom: 20px;
+}
+
+.source-note {
+  border-left: 4px solid #5f8fd8;
+  font-size: 13px !important;
+  margin: 26px 0 0;
+  padding: 4px 0 4px 20px;
+}
+.source-note a { color: #315f9f; font-weight: 700; }
+
 .metric-grid {
   display: grid;
   gap: 18px;
@@ -179,6 +196,19 @@
   padding: 22px 26px;
 }
 .metric-note strong { color: #fff; }
+
+.impact-grid .metric-card { border-color: rgba(191, 219, 255, 0.2); }
+.impact-grid .metric-card p { color: #506176; }
+.impact-method {
+  background: #142b49;
+  border-left: 4px solid #36a887;
+  margin-top: 24px;
+  padding: 28px;
+}
+.impact-method h3 { margin-bottom: 12px; }
+.impact-method p { font-size: 14px; margin-bottom: 10px; }
+.impact-method p:last-child { margin-bottom: 0; }
+.impact-method strong { color: #fff; }
 
 .evidence-comparison {
   display: grid;
