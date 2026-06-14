@@ -23,7 +23,7 @@
       <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="index.html"><img src="assets/images/logo/logo-bs-main.svg" alt="BreastScreening-AI" /></a>
         <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="toggler-icon"></span><span class="toggler-icon"></span><span class="toggler-icon"></span></button>
-        <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent"><ul id="nav" class="navbar-nav ms-auto"><li class="nav-item"><a href="#economics">Economics</a></li><li class="nav-item"><a href="#benchmarks">Benchmarks</a></li><li class="nav-item"><a href="#operating-model">Operating Model</a></li><li class="nav-item"><a href="#governance">Governance</a></li></ul></div>
+        <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent"><ul id="nav" class="navbar-nav ms-auto"><li class="nav-item"><a href="#economics">Economics</a></li><li class="nav-item"><a href="#cost-model">Impact Model</a></li><li class="nav-item"><a href="#operating-model">Operating Model</a></li><li class="nav-item"><a href="#governance">Governance</a></li></ul></div>
         <div class="button add-list-button"><a href="index.html" class="btn"><i class="lni lni-arrow-left"></i> Main Site</a></div>
       </nav>
     </div></div></div></div></header>
@@ -33,10 +33,10 @@
         <p class="solution-kicker">Workflow</p>
         <h1 id="workflow-title">Reduce expensive uncertainty in breast imaging workflows</h1>
         <p class="solution-lead">The workflow case for BreastScreening-AI is about turning diagnostic uncertainty into measurable operations: fewer avoidable callbacks, better triage of complex cases, safer follow-up, and a governance trail that can convert clinical performance into budget impact.</p>
-        <div class="solution-tags" aria-label="Workflow characteristics"><span>USD 4B false-positive burden</span><span>44.3% screening workload benchmark</span><span>88% second-reader workload simulation</span><span>17.5% diagnostic-error cost frame</span></div>
+        <div class="solution-tags workflow-themes" aria-label="Workflow priorities"><span>Cost of avoidable callbacks</span><span>Reader allocation strategy</span><span>Second-reader pathway design</span><span>Diagnostic safety economics</span></div>
       </div></section>
 
-      <nav class="solution-subnav" aria-label="Workflow sections"><div class="container"><a href="#economics">Economic thesis</a><a href="#cost-model">False-positive model</a><a href="#benchmarks">External benchmarks</a><a href="#operating-model">Operating model</a><a href="#charts">Charts</a><a href="#modalities">MG, US &amp; MRI</a><a href="#governance">Governance</a></div></nav>
+      <nav class="solution-subnav" aria-label="Workflow sections"><div class="container"><a href="#economics">Economic thesis</a><a href="#cost-model">Impact model</a><a href="#operating-model">Operating model</a><a href="#modalities">Multimodality</a><a href="#governance">Governance</a></div></nav>
 
       <section id="economics" class="solution-section white"><div class="container">
         <div class="solution-heading"><p class="solution-label">Business workflow thesis</p><h2>Every false alarm consumes capacity, budget and patient confidence</h2><p>Screening programmes create value by finding disease earlier, but false positives, overdiagnosis, missed findings and delayed follow-up create operational drag. The opportunity is not to replace clinical teams; it is to help them route attention, evidence and follow-up more efficiently.</p></div>
@@ -51,7 +51,7 @@
       </div></section>
 
       <section id="cost-model" class="solution-section dark"><div class="container">
-        <div class="solution-heading"><p class="solution-label">Macroeconomic false-positive model</p><h2>What reducing the USD 4B burden could mean</h2><p>The uploaded OECD report cites the Health Affairs estimate that false-positive mammograms and overdiagnosis cost about USD 4 billion yearly in the United States. The model below converts that burden into conservative reduction scenarios.</p></div>
+        <div class="solution-heading"><p class="solution-label">Impact model</p><h2>What reducing avoidable diagnostic waste could mean</h2><p>The uploaded OECD report cites the Health Affairs estimate that false-positive mammograms and overdiagnosis cost about USD 4 billion yearly in the United States. The model below converts that burden into conservative reduction scenarios.</p></div>
         <div class="cost-model-grid">
           <article class="cost-stack">
             <h3>Scenario calculator</h3>
@@ -70,22 +70,6 @@
         <p class="metric-note"><strong>Evidence boundary:</strong> this model does not claim BreastScreening-AI currently realizes these savings. It shows why reducing false positives is economically material and what hospital pilots should measure to build a credible local business case.</p>
       </div></section>
 
-      <section id="benchmarks" class="solution-section soft-blue"><div class="container">
-        <div class="solution-heading"><p class="solution-label">Top-tier workflow benchmarks</p><h2>External evidence shows where clinical workflow value can appear</h2><p>These figures come from external evidence and are used as market-context benchmarks, not as BreastScreening-AI performance claims.</p></div>
-        <div class="workflow-table-wrap">
-          <table class="workflow-table workflow-evidence-table">
-            <thead><tr><th>Evidence source</th><th>Reported figure</th><th>Workflow meaning</th><th>How BreastScreening-AI should use it</th></tr></thead>
-            <tbody>
-              <tr><td><strong>Health Affairs</strong><span>Ong and Mandl, 2015</span></td><td>About USD 4B yearly US expenditure for false-positive mammograms and breast cancer overdiagnoses.</td><td>False positives are a budget-level workflow problem, not only a clinical inconvenience.</td><td>Build pilots around callback reduction, benign workup burden and downstream cost tracking.</td></tr>
-              <tr><td><strong>Nature</strong><span>McKinney et al., 2020</span></td><td>Absolute reductions of 5.7% and 1.2% in false positives; 9.4% and 2.7% in false negatives; simulated 88% second-reader workload reduction.</td><td>AI can affect both accuracy and reading allocation when evaluated at screening-system scale.</td><td>Use as a benchmark for second-reader workflow design and workload sensitivity analysis.</td></tr>
-              <tr><td><strong>Lancet Oncology</strong><span>MASAI interim safety, 2023</span></td><td>AI-supported screening reported 6.1 cancers detected per 1,000 participants versus 5.1 per 1,000 with standard double reading, with 2.2% recall in both groups and 44.3% lower screen-reading workload.</td><td>AI can change staff allocation while preserving recall-rate safety signals in a randomized trial context.</td><td>Use as the workflow benchmark for reader allocation, safety monitoring and service redesign.</td></tr>
-              <tr><td><strong>The Lancet</strong><span>MASAI follow-up, 2026</span></td><td>Reported 12% reduction in later cancer diagnosis rates; 1.55 versus 1.76 cancers per 1,000 women; 81% versus 74% detected at screening; 27% fewer aggressive subtypes in the AI-supported group.</td><td>The strongest workflow value may come from earlier routing of clinically important disease, not just faster reading.</td><td>Use as a long-term validation target for interval cancers, aggressive subtypes and safety follow-up.</td></tr>
-              <tr><td><strong>OECD</strong><span>Diagnostic Safety, 2025</span></td><td>Up to 15% of diagnoses inaccurate, delayed or wrong; diagnostic-error burden estimated at 17.5% of healthcare expenditure; halving diagnostic error could free 8% of expenditure.</td><td>Diagnostic workflow quality is a system-level economic lever.</td><td>Frame BreastScreening-AI pilots as diagnostic-safety infrastructure, not only image AI evaluation.</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div></section>
-
       <section id="operating-model" class="solution-section white"><div class="container">
         <div class="solution-heading"><p class="solution-label">Operating model</p><h2>Design the workflow around economic control points</h2><p>A hospital-grade workflow should show where value is created, where risk is controlled and where data are captured for future reimbursement, procurement and validation decisions.</p></div>
         <div class="workflow-track workflow-track-six clinical-track">
@@ -98,31 +82,8 @@
         </div>
       </div></section>
 
-      <section id="charts" class="solution-section soft-green"><div class="container">
-        <div class="solution-heading"><p class="solution-label">Visual workflow model</p><h2>From diagnostic burden to measurable operating value</h2><p>The charts below make the page useful for strategic conversations without turning it into a research manuscript.</p></div>
-        <div class="impact-lab workflow-lab-light">
-          <article>
-            <h3>Screen-reading workload benchmarks</h3>
-            <p>External AI-screening studies show that workflow redesign can affect reader allocation at large scale.</p>
-            <div class="capacity-bars" aria-label="Screen-reading workload benchmark chart">
-              <div class="capacity-row"><span>MASAI</span><div><b style="width:50%"></b></div><strong>44.3%</strong></div>
-              <div class="capacity-row"><span>Nature sim.</span><div><b style="width:100%"></b></div><strong>88%</strong></div>
-            </div>
-          </article>
-          <article>
-            <h3>False-positive cost scenarios</h3>
-            <p>Applying modest reduction scenarios to the USD 4B US burden illustrates why callback governance matters commercially.</p>
-            <div class="comparison-bars" aria-label="False-positive cost reduction scenarios">
-              <div class="comparison-group"><span>10%</span><div class="bar-pair"><b class="after" style="height:20%"><em>USD 400M</em></b></div></div>
-              <div class="comparison-group"><span>25%</span><div class="bar-pair"><b class="after" style="height:50%"><em>USD 1.0B</em></b></div></div>
-              <div class="comparison-group"><span>50%</span><div class="bar-pair"><b class="after" style="height:100%"><em>USD 2.0B</em></b></div></div>
-            </div>
-          </article>
-        </div>
-      </div></section>
-
       <section id="modalities" class="solution-section white"><div class="container">
-        <div class="solution-heading"><p class="solution-label">Modality economics</p><h2>Why MG, US and MRI need one workflow logic</h2><p>Multimodality is a cost-control problem as much as a clinical one: the goal is to use the right evidence at the right time, avoiding both missed disease and unnecessary escalation.</p></div>
+        <div class="solution-heading"><p class="solution-label">Multimodality</p><h2>Why breast imaging needs one workflow logic</h2><p>Multimodality is a cost-control problem as much as a clinical one: the goal is to use the right evidence at the right time, avoiding both missed disease and unnecessary escalation.</p></div>
         <div class="modality-flow">
           <article><span class="modality-code">MG</span><h3>Mammography</h3><p>High-volume screening entry point where false positives, density, priors and recall decisions create the largest aggregate operational burden.</p><strong>Business metric: callback and benign workup rate.</strong></article>
           <article><span class="modality-code">US</span><h3>Ultrasound</h3><p>Targeted characterization layer for suspicious or palpable findings, where workflow value comes from faster clarification and fewer avoidable escalations.</p><strong>Business metric: workup completion and biopsy yield.</strong></article>

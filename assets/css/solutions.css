@@ -69,6 +69,11 @@
   font-weight: 700;
   padding: 9px 13px;
 }
+.workflow-themes span {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
 
 .solution-subnav {
   background: #fff;
@@ -717,6 +722,30 @@
   font-weight: 800;
   left: 0;
   position: absolute;
+}
+
+.dark .workflow-checklist article {
+  background: #fff;
+  border-left-width: 6px;
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.18);
+}
+.dark .workflow-checklist h3 {
+  color: #10233c;
+}
+.dark .workflow-checklist li {
+  color: #2f4056;
+}
+.dark .workflow-checklist li::before {
+  color: #36a887;
+}
+.dark .platform-status {
+  border-left-color: #36a887;
+}
+.dark .platform-status h3,
+.dark .platform-status p,
+.dark .platform-status .status-fact strong,
+.dark .platform-status .status-fact span {
+  color: #10233c;
 }
 
 .boundary-grid { display: grid; gap: 24px; grid-template-columns: 1fr 1fr; }
