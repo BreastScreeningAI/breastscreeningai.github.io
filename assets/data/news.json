@@ -1,0 +1,42 @@
+[
+  {
+    "date": "2026-06-14",
+    "type": "Clinical research",
+    "title": "Exploratory clinical pilot reporting updated",
+    "summary": "The public project report now separates the Hospital da Luz exploratory pilot from earlier peer-reviewed evidence and states the study's sample and limitations.",
+    "url": "reports.html#clinical-results",
+    "linkLabel": "Read the project report"
+  },
+  {
+    "date": "2025-01-25",
+    "type": "Publication",
+    "title": "Study on personalized AI explanations published",
+    "summary": "The International Journal of Human-Computer Studies published research examining communication adapted to clinicians' expertise levels.",
+    "url": "https://doi.org/10.1016/j.ijhcs.2025.103444",
+    "linkLabel": "View the publication"
+  },
+  {
+    "date": "2023-04-28",
+    "type": "Publication",
+    "title": "Personalized agent communication presented at CHI 2023",
+    "summary": "The CHI study investigated how assertive and suggestive AI communication can affect clinician performance and receptiveness.",
+    "url": "https://doi.org/10.1145/3544548.3580682",
+    "linkLabel": "View the publication"
+  },
+  {
+    "date": "2023-03-01",
+    "type": "Scientific exhibit",
+    "title": "External breast-density validation presented at ECR 2023",
+    "summary": "A retrospective external validation evaluated an open-source deep learning model using 3,356 mammograms from 839 patients.",
+    "url": "https://doi.org/10.26044/ecr2023/C-16014",
+    "linkLabel": "View the exhibit"
+  },
+  {
+    "date": "2022-03-29",
+    "type": "Publication",
+    "title": "BreastScreening-AI clinical interaction study published",
+    "summary": "Artificial Intelligence in Medicine published the evaluation of clinician-only and clinician-AI scenarios involving 45 clinicians from nine institutions.",
+    "url": "https://doi.org/10.1016/j.artmed.2022.102285",
+    "linkLabel": "View the publication"
+  }
+]

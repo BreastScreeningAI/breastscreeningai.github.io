@@ -1,0 +1,142 @@
+[
+  {
+    "year": 2025,
+    "type": "Journal article",
+    "title": "Personalized explanations for clinician-AI interaction in breast imaging diagnosis by adapting communication to expertise levels",
+    "authors": "Francisco Maria Calisto, Joao Maria Abrantes, Carlos Santiago, Nuno J. Nunes and Jacinto C. Nascimento",
+    "venue": "International Journal of Human-Computer Studies, 197, 103444",
+    "topics": ["Human-AI interaction", "Personalization", "Breast imaging"],
+    "lineage": "BreastScreening-AI",
+    "url": "https://doi.org/10.1016/j.ijhcs.2025.103444"
+  },
+  {
+    "year": 2024,
+    "type": "Doctoral thesis",
+    "title": "Human-Centered Design of Personalized Intelligent Agents in Medical Imaging Diagnosis",
+    "authors": "Francisco Maria Calisto",
+    "venue": "Instituto Superior Tecnico, University of Lisbon",
+    "topics": ["Human-AI interaction", "Medical imaging", "Clinical workflow"],
+    "lineage": "MIDA / BreastScreening-AI",
+    "url": ""
+  },
+  {
+    "year": 2023,
+    "type": "Conference paper",
+    "title": "Assertiveness-based Agent Communication for a Personalized Medicine on Medical Imaging Diagnosis",
+    "authors": "Francisco Maria Calisto, Joao Fernandes, Margarida Morais, Carlos Santiago, Joao Maria Abrantes, Nuno Nunes and Jacinto C. Nascimento",
+    "venue": "CHI 2023",
+    "topics": ["Human-AI interaction", "Personalization", "Clinical decision support"],
+    "lineage": "BreastScreening-AI",
+    "url": "https://doi.org/10.1145/3544548.3580682"
+  },
+  {
+    "year": 2023,
+    "type": "Conference paper",
+    "title": "Classification of Breast Cancer in MRI with Multimodal Fusion",
+    "authors": "Margarida Morais, Francisco Maria Calisto, Carlos Santiago, Clara Aleluia and Jacinto C. Nascimento",
+    "venue": "IEEE ISBI 2023",
+    "topics": ["MRI", "Multimodal AI", "Classification"],
+    "lineage": "MIA-BREAST",
+    "url": "https://doi.org/10.1109/ISBI53787.2023.10230686"
+  },
+  {
+    "year": 2023,
+    "type": "Conference paper",
+    "title": "Weakly-Supervised Diagnosis and Detection of Breast Cancer Using Deep Multiple Instance Learning",
+    "authors": "Pedro Diogo, Margarida Morais, Francisco Maria Calisto, Carlos Santiago, Clara Aleluia and Jacinto C. Nascimento",
+    "venue": "IEEE ISBI 2023",
+    "topics": ["MRI", "Weak supervision", "Lesion detection"],
+    "lineage": "MIA-BREAST",
+    "url": "https://doi.org/10.1109/ISBI53787.2023.10230448"
+  },
+  {
+    "year": 2023,
+    "type": "Scientific exhibit",
+    "title": "External Validation of a Deep Learning Model for Breast Density Classification",
+    "authors": "Joao Maria Abrantes, Maria Joao Bento e Silva, Joao Pedro Meneses, Carlos Oliveira, Francisco Maria Calisto and Ryan W. Filice",
+    "venue": "European Congress of Radiology 2023, C-16014",
+    "topics": ["Mammography", "Breast density", "External validation"],
+    "lineage": "Related validation research",
+    "url": "https://doi.org/10.26044/ecr2023/C-16014"
+  },
+  {
+    "year": 2023,
+    "type": "Patent family",
+    "title": "Machine Learning System for Diagnosing Breast Lesions, Adaptable to the Clinician and Based on Assertiveness",
+    "authors": "Francisco Maria Calisto, Jacinto C. Nascimento, Carlos Santiago and Nuno Nunes",
+    "venue": "PT118618; international publication WO2024225925",
+    "topics": ["Patent", "Personalization", "Clinical decision support"],
+    "lineage": "BreastScreening-AI",
+    "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2024225925"
+  },
+  {
+    "year": 2022,
+    "type": "Journal article",
+    "title": "BreastScreening-AI: Evaluating Medical Intelligent Agents for Human-AI Interactions",
+    "authors": "Francisco Maria Calisto, Carlos Santiago, Nuno Nunes and Jacinto C. Nascimento",
+    "venue": "Artificial Intelligence in Medicine, 127, 102285",
+    "topics": ["Human-AI interaction", "Clinical evaluation", "Multimodal imaging"],
+    "lineage": "BreastScreening-AI",
+    "url": "https://doi.org/10.1016/j.artmed.2022.102285"
+  },
+  {
+    "year": 2022,
+    "type": "Journal article",
+    "title": "Modeling Adoption of Intelligent Agents in Medical Imaging",
+    "authors": "Francisco Maria Calisto, Nuno Nunes and Jacinto C. Nascimento",
+    "venue": "International Journal of Human-Computer Studies, 168, 102922",
+    "topics": ["Technology adoption", "Trust", "Medical imaging"],
+    "lineage": "BreastScreening-AI",
+    "url": "https://doi.org/10.1016/j.ijhcs.2022.102922"
+  },
+  {
+    "year": 2022,
+    "type": "Patent family",
+    "title": "Computational Method and System for Improved Identification of Breast Lesions",
+    "authors": "Francisco Maria Calisto and Jacinto C. Nascimento",
+    "venue": "International publication WO2022071818; US application 18/029,407",
+    "topics": ["Patent", "Multimodal imaging", "Lesion identification"],
+    "lineage": "MIA-BREAST / BreastScreening-AI",
+    "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2022071818"
+  },
+  {
+    "year": 2021,
+    "type": "Journal article",
+    "title": "Introduction of Human-Centric AI Assistant to Aid Radiologists for Multimodal Breast Image Classification",
+    "authors": "Francisco Maria Calisto, Carlos Santiago, Nuno Nunes and Jacinto C. Nascimento",
+    "venue": "International Journal of Human-Computer Studies, 150, 102607",
+    "topics": ["Human-centered AI", "Clinical workflow", "Multimodal imaging"],
+    "lineage": "BreastScreening",
+    "url": "https://doi.org/10.1016/j.ijhcs.2021.102607"
+  },
+  {
+    "year": 2020,
+    "type": "Conference paper",
+    "title": "BreastScreening: On the Use of Multi-Modality in Medical Imaging Diagnosis",
+    "authors": "Francisco Maria Calisto, Nuno Nunes and Jacinto C. Nascimento",
+    "venue": "AVI 2020",
+    "topics": ["Multimodal imaging", "User study", "Clinical interface"],
+    "lineage": "BreastScreening",
+    "url": "https://doi.org/10.1145/3399715.3399744"
+  },
+  {
+    "year": 2017,
+    "type": "Conference paper",
+    "title": "Towards Touch-Based Medical Image Diagnosis Annotation",
+    "authors": "Francisco Maria Calisto, Alfredo Ferreira, Jacinto C. Nascimento and Daniel Goncalves",
+    "venue": "ACM ISS 2017",
+    "topics": ["Interaction design", "Annotation", "Medical imaging"],
+    "lineage": "MIMBCD-UI",
+    "url": "https://doi.org/10.1145/3132272.3134111"
+  },
+  {
+    "year": 2017,
+    "type": "Master's thesis",
+    "title": "Medical Imaging Multimodality Breast Cancer Diagnosis User Interface",
+    "authors": "Francisco Maria Calisto",
+    "venue": "Instituto Superior Tecnico, University of Lisbon",
+    "topics": ["Multimodal imaging", "Clinical interface", "Breast cancer"],
+    "lineage": "MIMBCD-UI",
+    "url": "https://doi.org/10.13140/RG.2.2.15187.02084"
+  }
+]
