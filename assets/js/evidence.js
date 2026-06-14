@@ -14,33 +14,58 @@
   };
   var config = { responsive: true, displayModeBar: false };
 
-  Plotly.newPlot("outputs-chart", [
-    { name: "Scholarly", x: [2017, 2020, 2021, 2022, 2023, 2024, 2025], y: [2, 1, 1, 2, 4, 1, 1], type: "bar", marker: { color: colors.blue } },
-    { name: "Patent families", x: [2017, 2020, 2021, 2022, 2023, 2024, 2025], y: [0, 0, 0, 1, 1, 0, 0], type: "bar", marker: { color: colors.pink } }
-  ], Object.assign({}, baseLayout, { title: { text: "Curated outputs by year", font: { size: 17 } }, barmode: "stack", xaxis: { dtick: 1, fixedrange: true }, yaxis: { title: "Outputs", dtick: 1, fixedrange: true } }), config);
-
-  Plotly.newPlot("reach-chart", [{
-    x: [31, 45, 52, 7], y: ["Early human-centred study", "2022 clinician-AI study", "Adoption/personalization research", "Hospital da Luz pilot"],
-    type: "bar", orientation: "h", text: ["31", "45", "52", "7"], textposition: "auto", marker: { color: [colors.blue, colors.green, colors.pink, colors.gray] }
-  }], Object.assign({}, baseLayout, { title: { text: "Reported study participations", font: { size: 17 } }, showlegend: false, xaxis: { title: "Participants", fixedrange: true }, yaxis: { autorange: "reversed", fixedrange: true }, margin: { l: 180, r: 20, t: 34, b: 52 } }), config);
+  var milestones = [
+    { x: 2017, y: 4, label: "Touch annotation", detail: "Foundational interaction and annotation research", color: colors.blue, size: 16 },
+    { x: 2020, y: 4, label: "Multimodality workflow", detail: "Mammography, ultrasound and MRI interaction design", color: colors.blue, size: 18 },
+    { x: 2021, y: 3, label: "Human-centric assistant", detail: "Clinician-facing explanations and multimodal classification", color: colors.green, size: 20 },
+    { x: 2022, y: 2, label: "Clinician-AI evaluation", detail: "Controlled comparison across nine institutions", color: colors.pink, size: 24 },
+    { x: 2022.35, y: 3, label: "Adoption model", detail: "Trust and adoption research", color: colors.green, size: 17 },
+    { x: 2023, y: 3, label: "Personalized communication", detail: "Assertiveness-based human-AI interaction", color: colors.green, size: 20 },
+    { x: 2023.25, y: 1, label: "External validation", detail: "Breast-density model validation", color: colors.pink, size: 18 },
+    { x: 2023.55, y: 1, label: "MRI model research", detail: "Multimodal fusion and weak supervision", color: colors.pink, size: 20 },
+    { x: 2024, y: 2, label: "Research synthesis", detail: "Doctoral thesis and protected intellectual property", color: colors.gray, size: 18 },
+    { x: 2025, y: 3, label: "Adaptive explanations", detail: "Communication adapted to clinician expertise", color: colors.green, size: 20 },
+    { x: 2025.75, y: 0, label: "Hospital integration", detail: "Exploratory workflow and usability activity", color: colors.navy, size: 24 },
+    { x: 2026, y: 0, label: "Clinical reporting", detail: "CHTMAD structured-reporting research", color: colors.navy, size: 20 }
+  ];
 
   Plotly.newPlot("validation-timeline-chart", [{
-    x: [2017, 2020, 2021, 2022, 2022.2, 2023, 2023.2, 2023.4, 2024, 2025, 2025.8, 2026],
-    y: ["Interface design", "Interface design", "Human factors", "Clinical evaluation", "Human factors", "Human factors", "Model validation", "Model development", "IP and synthesis", "Human factors", "Clinical integration", "Clinical integration"],
-    text: ["Touch annotation", "Multimodality workflow", "Human-centric assistant", "Clinician-AI comparison", "Adoption modeling", "Personalized communication", "External density validation", "MRI fusion and weak supervision", "Doctoral synthesis and patent", "Expertise-adaptive explanations", "Hospital da Luz integration", "CHTMAD reporting research"],
-    mode: "markers+text", type: "scatter", textposition: "top center", hovertemplate: "%{x}: %{text}<extra></extra>",
-    marker: { size: 14, color: [colors.blue, colors.blue, colors.green, colors.pink, colors.green, colors.green, colors.pink, colors.pink, colors.gray, colors.green, colors.navy, colors.navy] }
-  }], Object.assign({}, baseLayout, { showlegend: false, xaxis: { range: [2016.5, 2026.5], dtick: 1, fixedrange: true }, yaxis: { fixedrange: true }, margin: { l: 135, r: 30, t: 45, b: 50 } }), config);
-
-  Plotly.newPlot("economic-impact-chart", [{
-    x: ["5%", "10%", "20%"], y: [200, 400, 800], type: "bar", text: ["$200M", "$400M", "$800M"], textposition: "auto", marker: { color: [colors.blue, colors.green, colors.pink] }
-  }], Object.assign({}, baseLayout, { showlegend: false, xaxis: { title: "Scenario reduction", fixedrange: true }, yaxis: { title: "USD millions, gross opportunity", fixedrange: true }, font: { family: "Inter, Arial, sans-serif", color: "#d7e1ec" } }), config);
-
-  Plotly.newPlot("false-negative-chart", [{
-    x: ["Clinician only", "Clinician + AI"], y: [6000, 2000], type: "bar", text: ["6,000", "2,000"], textposition: "auto", marker: { color: [colors.gray, colors.green] }
-  }], Object.assign({}, baseLayout, { showlegend: false, xaxis: { fixedrange: true }, yaxis: { title: "Per 100,000 classifications", fixedrange: true }, font: { family: "Inter, Arial, sans-serif", color: "#d7e1ec" } }), config);
-
-  Plotly.newPlot("time-impact-chart", [{
-    x: ["100k", "1m", "10m"], y: [1917, 19167, 191667], type: "bar", text: ["1,917h", "19,167h", "191,667h"], textposition: "auto", marker: { color: [colors.blue, colors.green, colors.pink] }
-  }], Object.assign({}, baseLayout, { showlegend: false, xaxis: { title: "Annual eligible reviews", fixedrange: true }, yaxis: { title: "Capacity hours", type: "log", fixedrange: true }, font: { family: "Inter, Arial, sans-serif", color: "#d7e1ec" } }), config);
+    x: milestones.map(function (item) { return item.x; }),
+    y: milestones.map(function (item) { return item.y; }),
+    text: milestones.map(function (item) { return item.label; }),
+    customdata: milestones.map(function (item) { return item.detail; }),
+    mode: "markers+text",
+    type: "scatter",
+    textposition: milestones.map(function (item, index) { return index % 2 ? "bottom center" : "top center"; }),
+    textfont: { size: 11, color: colors.navy },
+    hovertemplate: "<b>%{text}</b><br>%{customdata}<extra></extra>",
+    marker: {
+      size: milestones.map(function (item) { return item.size; }),
+      color: milestones.map(function (item) { return item.color; }),
+      line: { color: "#ffffff", width: 2 }
+    }
+  }], Object.assign({}, baseLayout, {
+    showlegend: false,
+    hoverlabel: { bgcolor: colors.navy, font: { color: "#ffffff" } },
+    xaxis: { range: [2016.55, 2026.45], dtick: 1, fixedrange: true, gridcolor: "#dfe7f0", zeroline: false },
+    yaxis: {
+      range: [-0.55, 4.55],
+      tickvals: [0, 1, 2, 3, 4],
+      ticktext: ["Clinical integration", "Model validation", "Clinical evaluation", "Human factors", "Interface design"],
+      fixedrange: true,
+      gridcolor: "#edf1f6",
+      zeroline: false
+    },
+    shapes: [
+      { type: "rect", x0: 2016.55, x1: 2020.5, y0: -0.55, y1: 4.55, fillcolor: "rgba(95,143,216,0.08)", line: { width: 0 }, layer: "below" },
+      { type: "rect", x0: 2020.5, x1: 2024.5, y0: -0.55, y1: 4.55, fillcolor: "rgba(54,168,135,0.08)", line: { width: 0 }, layer: "below" },
+      { type: "rect", x0: 2024.5, x1: 2026.45, y0: -0.55, y1: 4.55, fillcolor: "rgba(218,79,145,0.08)", line: { width: 0 }, layer: "below" }
+    ],
+    annotations: [
+      { x: 2018.5, y: 4.42, text: "FOUNDATIONS", showarrow: false, font: { size: 11, color: colors.blue } },
+      { x: 2022.5, y: 4.42, text: "EVALUATION", showarrow: false, font: { size: 11, color: colors.green } },
+      { x: 2025.45, y: 4.42, text: "INTEGRATION", showarrow: false, font: { size: 11, color: colors.pink } }
+    ],
+    margin: { l: 145, r: 34, t: 30, b: 52 }
+  }), config);
 }());
