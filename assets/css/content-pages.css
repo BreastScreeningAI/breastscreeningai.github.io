@@ -57,6 +57,58 @@
 .faq-group a { color: #1d5cab; font-weight: 700; }
 .faq-group a:hover { color: #da4f91; }
 
+.media-soft { background: #eef5ff; }
+.media-boilerplate, .media-assets-grid, .media-guidance-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.media-boilerplate article, .media-asset-card, .media-guidance-grid article {
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(16, 35, 60, 0.06);
+  padding: 30px;
+}
+.media-boilerplate article:first-child { grid-column: span 2; }
+.media-boilerplate h2, .media-asset-card h3, .media-guidance-grid h3 {
+  color: #10233c;
+  font-size: 22px;
+  margin-bottom: 14px;
+}
+.media-boilerplate p, .media-asset-card p, .media-guidance-grid li {
+  color: #506176;
+  font-size: 15px;
+  line-height: 1.75;
+}
+.media-asset-card { display: flex; flex-direction: column; min-height: 310px; }
+.media-asset-card img {
+  align-self: flex-start;
+  background: #f7f9fc;
+  border: 1px solid #dfe5ec;
+  margin-bottom: 22px;
+  max-height: 120px;
+  max-width: 100%;
+  padding: 18px;
+}
+.media-asset-card.dark-preview img { background: #081828; }
+.media-asset-card a {
+  color: #1d5cab;
+  font-size: 14px;
+  font-weight: 800;
+  margin-top: auto;
+}
+.media-asset-card a:hover { color: #da4f91; }
+.media-guidance-grid article { border-top: 4px solid #36a887; }
+.media-guidance-grid article.caution { border-top-color: #da4f91; }
+.media-guidance-grid ul { margin: 0; padding-left: 18px; }
+.brand-swatches { display: grid; gap: 8px; }
+.brand-swatches span {
+  color: #fff;
+  display: block;
+  font-size: 13px;
+  font-weight: 800;
+  padding: 12px;
+}
+
 .news-list { background: #fff; box-shadow: 0 12px 30px rgba(16, 35, 60, 0.06); }
 .news-entry { display: grid; gap: 42px; grid-template-columns: 190px minmax(0, 1fr); padding: 34px; }
 .news-entry + .news-entry { border-top: 1px solid #dfe5ec; }
@@ -75,5 +127,7 @@
   .faq-layout { grid-template-columns: 1fr; }
   .faq-sidecard { position: static; }
   .faq-group { padding: 26px; }
+  .media-boilerplate, .media-assets-grid, .media-guidance-grid { grid-template-columns: 1fr; }
+  .media-boilerplate article:first-child { grid-column: auto; }
   .news-entry { gap: 16px; grid-template-columns: 1fr; padding: 26px; }
 }

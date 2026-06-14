@@ -1,0 +1,13 @@
+BreastScreening-AI is a research-origin medical AI project emerging from Instituto Superior Tecnico, Universidade de Lisboa. It develops human-centered, multimodal AI tools designed to support breast imaging workflows, strengthen clinical judgement and generate evidence for responsible validation.
+
+One-line description:
+Human-centered multimodal AI for breast imaging workflow support.
+
+Tagline:
+AI should strengthen, not replace, clinical judgement.
+
+Media contact:
+info@breastscreeningai.com
+
+Usage note:
+Do not describe BreastScreening-AI as autonomous diagnosis, a radiologist replacement, a certified medical device, or a deployed clinical service unless those statements are separately confirmed in writing.
