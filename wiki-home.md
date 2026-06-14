@@ -10,14 +10,14 @@ BreastScreening-AI is a multidisciplinary initiative exploring how artificial in
 
 | Resource | Link |
 | --- | --- |
-| Official website | [breastscreeningai.eu](https://breastscreeningai.eu/) |
+| Official website | [breastscreeningai.github.io](https://breastscreeningai.github.io/) |
 | Live demonstration | [See In Action](http://scorpion.isr.tecnico.ulisboa.pt:3030/) |
 | Statistical analysis | [Analytics](https://mimbcd-ui.github.io/statistical-analysis) |
 | Newsletter | [BreastScreening-AI on Substack](https://breastscreeningai.substack.com/) |
 | Crunchbase | [Company profile](https://www.crunchbase.com/organization/breastscreening-ai) |
 | F6S | [Startup profile](https://www.f6s.com/breastscreeningai) |
 | Careers | [Open roles on Wellfound](https://wellfound.com/company/breastscreening-ai/jobs) |
-| Support | [Live Support](https://breastscreeningai.eu/#live-support) |
+| Support | [Live Support](https://breastscreeningai.github.io/#live-support) |
 | Contact | [info@breastscreeningai.com](mailto:info@breastscreeningai.com) |
 
 ## Project objectives
@@ -37,7 +37,7 @@ The project includes clinical, research, technical, and business contributors. T
 - Former business team members.
 - Research and institutional collaborations.
 
-Visit [Our Story](https://breastscreeningai.eu/story.html) to meet the clinicians and contributors behind the project.
+Visit [Our Story](https://breastscreeningai.github.io/story.html) to meet the clinicians and contributors behind the project.
 
 ## Documentation map
 
@@ -67,14 +67,14 @@ The website acknowledges support associated with the Startup Voucher, Portugal's
 
 - [Recuperar Portugal](https://recuperarportugal.gov.pt/)
 - [Fundação para a Ciência e a Tecnologia](https://www.fct.pt/)
-- [Download the Startup Voucher project poster](https://breastscreeningai.eu/assets/recognitions/Sensiperception_Cartaz_VoucherStartups.pptx)
+- [Download the Startup Voucher project poster](https://breastscreeningai.github.io/assets/recognitions/Sensiperception_Cartaz_VoucherStartups.pptx)
 
 Further project-sheet information should include the formal beneficiary, operation title and code, implementation period, financial support, objectives, activities, results, and indicators once those details are confirmed for publication.
 
 ## Legal and privacy
 
-- [Terms & Conditions](https://breastscreeningai.eu/media/breastscreeningai_terms_and_conditions.pdf)
-- [Privacy Policy](https://breastscreeningai.eu/media/breastscreeningai_privacy_policy.pdf)
+- [Terms & Conditions](https://breastscreeningai.github.io/media/breastscreeningai_terms_and_conditions.pdf)
+- [Privacy Policy](https://breastscreeningai.github.io/media/breastscreeningai_privacy_policy.pdf)
 
 These documents provide general website guidance and should be reviewed by qualified legal counsel before being treated as final legal advice or definitive regulatory documentation.
 

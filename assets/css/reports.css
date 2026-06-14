@@ -545,6 +545,14 @@
   color: #bfdbff;
 }
 
+.report-footer .footer-disclaimer {
+  color: #9ea8b5;
+  flex-basis: 100%;
+  font-size: 12px;
+  margin: 0;
+  text-align: right;
+}
+
 @media (max-width: 991px) {
   .report-hero h1 { font-size: 44px; }
   .indicator-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -569,6 +577,7 @@
   .chart-surface { padding: 20px 14px; }
   .report-footer .container { align-items: flex-start; flex-direction: column; gap: 30px; }
   .report-footer div { justify-content: flex-start; }
+  .report-footer .footer-disclaimer { text-align: left; }
 }
 
 @media print {
