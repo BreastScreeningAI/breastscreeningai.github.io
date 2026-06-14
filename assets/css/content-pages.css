@@ -109,6 +109,68 @@
   padding: 12px;
 }
 
+.ir-soft { background: #eef5ff; }
+.ir-category-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.ir-category-card {
+  background: #fff;
+  border-top: 4px solid #5f8fd8;
+  box-shadow: 0 12px 30px rgba(16, 35, 60, 0.06);
+  color: #10233c;
+  display: flex;
+  flex-direction: column;
+  min-height: 210px;
+  padding: 26px;
+}
+.ir-category-card:nth-child(2) { border-color: #36a887; }
+.ir-category-card:nth-child(3) { border-color: #da4f91; }
+.ir-category-card:nth-child(4) { border-color: #10233c; }
+.ir-category-card i {
+  color: #da4f91;
+  font-size: 30px;
+  margin-bottom: 22px;
+}
+.ir-category-card span {
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 1.35;
+  margin-bottom: 12px;
+}
+.ir-category-card small {
+  color: #506176;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.ir-category-card:hover { color: #10233c; transform: translateY(-2px); }
+.report-document-card.pending {
+  border-color: #ccd6e1;
+  opacity: 0.92;
+}
+.ir-letter-panel {
+  align-items: stretch;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+}
+.ir-letter-panel > div {
+  background: #10233c;
+  box-shadow: 0 12px 30px rgba(16, 35, 60, 0.08);
+  padding: 34px;
+}
+.ir-letter-panel h3 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.ir-letter-panel p {
+  color: #d2d6dc;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
 .news-list { background: #fff; box-shadow: 0 12px 30px rgba(16, 35, 60, 0.06); }
 .news-entry { display: grid; gap: 42px; grid-template-columns: 190px minmax(0, 1fr); padding: 34px; }
 .news-entry + .news-entry { border-top: 1px solid #dfe5ec; }
@@ -129,5 +191,6 @@
   .faq-group { padding: 26px; }
   .media-boilerplate, .media-assets-grid, .media-guidance-grid { grid-template-columns: 1fr; }
   .media-boilerplate article:first-child { grid-column: auto; }
+  .ir-category-grid, .ir-letter-panel { grid-template-columns: 1fr; }
   .news-entry { gap: 16px; grid-template-columns: 1fr; padding: 26px; }
 }
