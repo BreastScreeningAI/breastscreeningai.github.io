@@ -277,6 +277,8 @@
 .solution-cta p { color: #fff; font-size: 16px; }
 .solution-cta .btn { background: #081828; color: #fff; margin-top: 24px; }
 .solution-cta .btn:hover { background: #fff; color: #081828; }
+.solution-cta .business-cta-secondary { background: transparent; border: 2px solid #fff; margin-left: 10px; }
+.solution-cta .business-cta-secondary:hover { background: #fff; color: #081828; }
 
 @media (max-width: 991px) {
   .solution-grid, .principle-grid, .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -296,4 +298,5 @@
   .solution-card { min-height: 0; }
   .metric-card { min-height: 0; }
   .status-fact { border-left: 0; border-top: 1px solid #dfe5ec; padding-left: 0; padding-top: 28px; }
+  .solution-cta .business-cta-secondary { margin-left: 0; }
 }
