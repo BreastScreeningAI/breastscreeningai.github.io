@@ -24,11 +24,23 @@
     type: "bar", orientation: "h", text: ["31", "45", "52", "7"], textposition: "auto", marker: { color: [colors.blue, colors.green, colors.pink, colors.gray] }
   }], Object.assign({}, baseLayout, { title: { text: "Reported study participations", font: { size: 17 } }, showlegend: false, xaxis: { title: "Participants", fixedrange: true }, yaxis: { autorange: "reversed", fixedrange: true }, margin: { l: 180, r: 20, t: 34, b: 52 } }), config);
 
-  Plotly.newPlot("clinical-impact-chart", [{
-    x: ["5%", "10%", "20%"], y: [5000, 10000, 20000], type: "bar", text: ["5,000", "10,000", "20,000"], textposition: "auto", marker: { color: [colors.blue, colors.green, colors.pink] }
-  }], Object.assign({}, baseLayout, { showlegend: false, xaxis: { title: "Scenario reduction", fixedrange: true }, yaxis: { title: "Avoided events per 100,000", fixedrange: true }, font: { family: "Inter, Arial, sans-serif", color: "#d7e1ec" } }), config);
+  Plotly.newPlot("validation-timeline-chart", [{
+    x: [2017, 2020, 2021, 2022, 2022.2, 2023, 2023.2, 2023.4, 2024, 2025, 2025.8, 2026],
+    y: ["Interface design", "Interface design", "Human factors", "Clinical evaluation", "Human factors", "Human factors", "Model validation", "Model development", "IP and synthesis", "Human factors", "Clinical integration", "Clinical integration"],
+    text: ["Touch annotation", "Multimodality workflow", "Human-centric assistant", "Clinician-AI comparison", "Adoption modeling", "Personalized communication", "External density validation", "MRI fusion and weak supervision", "Doctoral synthesis and patent", "Expertise-adaptive explanations", "Hospital da Luz integration", "CHTMAD reporting research"],
+    mode: "markers+text", type: "scatter", textposition: "top center", hovertemplate: "%{x}: %{text}<extra></extra>",
+    marker: { size: 14, color: [colors.blue, colors.blue, colors.green, colors.pink, colors.green, colors.green, colors.pink, colors.pink, colors.gray, colors.green, colors.navy, colors.navy] }
+  }], Object.assign({}, baseLayout, { showlegend: false, xaxis: { range: [2016.5, 2026.5], dtick: 1, fixedrange: true }, yaxis: { fixedrange: true }, margin: { l: 135, r: 30, t: 45, b: 50 } }), config);
 
   Plotly.newPlot("economic-impact-chart", [{
     x: ["5%", "10%", "20%"], y: [200, 400, 800], type: "bar", text: ["$200M", "$400M", "$800M"], textposition: "auto", marker: { color: [colors.blue, colors.green, colors.pink] }
   }], Object.assign({}, baseLayout, { showlegend: false, xaxis: { title: "Scenario reduction", fixedrange: true }, yaxis: { title: "USD millions, gross opportunity", fixedrange: true }, font: { family: "Inter, Arial, sans-serif", color: "#d7e1ec" } }), config);
+
+  Plotly.newPlot("false-negative-chart", [{
+    x: ["Clinician only", "Clinician + AI"], y: [6000, 2000], type: "bar", text: ["6,000", "2,000"], textposition: "auto", marker: { color: [colors.gray, colors.green] }
+  }], Object.assign({}, baseLayout, { showlegend: false, xaxis: { fixedrange: true }, yaxis: { title: "Per 100,000 classifications", fixedrange: true }, font: { family: "Inter, Arial, sans-serif", color: "#d7e1ec" } }), config);
+
+  Plotly.newPlot("time-impact-chart", [{
+    x: ["100k", "1m", "10m"], y: [1917, 19167, 191667], type: "bar", text: ["1,917h", "19,167h", "191,667h"], textposition: "auto", marker: { color: [colors.blue, colors.green, colors.pink] }
+  }], Object.assign({}, baseLayout, { showlegend: false, xaxis: { title: "Annual eligible reviews", fixedrange: true }, yaxis: { title: "Capacity hours", type: "log", fixedrange: true }, font: { family: "Inter, Arial, sans-serif", color: "#d7e1ec" } }), config);
 }());

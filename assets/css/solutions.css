@@ -457,6 +457,33 @@
 .evidence-impact-card h3 { color: #fff; margin: 10px 0 12px; }
 .evidence-impact-card p { color: #c9d2dc; font-size: 14px; }
 .evidence-impact-note a { color: #bfdbff; font-weight: 700; }
+.evidence-timeline-card { margin-bottom: 30px; }
+.evidence-timeline-plot { min-height: 520px; }
+.ml-validation-flow {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin-top: 30px;
+}
+.ml-validation-flow article { background: #10233c; min-height: 210px; padding: 24px; position: relative; }
+.ml-validation-flow article:nth-child(2n) { background: #142b49; }
+.ml-validation-flow article:not(:last-child)::after { color: #36a887; content: "\2192"; font-size: 22px; position: absolute; right: -8px; top: 50%; z-index: 2; }
+.ml-validation-flow span { color: #bfdbff; font-size: 13px; font-weight: 800; }
+.ml-validation-flow h3 { color: #fff; margin: 18px 0 10px; }
+.ml-validation-flow p { color: #c9d2dc; font-size: 13px; }
+.evidence-signal-strip {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 28px;
+}
+.evidence-signal-strip article { background: #fff; padding: 24px; }
+.evidence-signal-strip span { color: #66758a; display: block; font-size: 12px; font-weight: 800; text-transform: uppercase; }
+.evidence-signal-strip strong { color: #da4f91; display: block; font-size: 27px; margin: 9px 0; }
+.evidence-signal-strip p { color: #506176 !important; font-size: 13px !important; margin: 0; }
+.evidence-impact-grid-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.evidence-impact-grid-three .evidence-plot { min-height: 350px; }
+.evidence-impact-table { margin: 30px 0 0; }
 
 .principle-grid {
   background: rgba(255, 255, 255, 0.14);
@@ -793,7 +820,8 @@
 .solution-cta .business-cta-secondary:hover { background: #fff; color: #081828; }
 
 @media (max-width: 991px) {
-  .solution-grid, .principle-grid, .metric-grid, .evidence-portfolio-grid, .pathway-map, .checklist-board, .impact-lab, .modality-flow, .trust-meter, .cost-model-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .solution-grid, .principle-grid, .metric-grid, .evidence-portfolio-grid, .evidence-impact-grid-three, .ml-validation-flow, .pathway-map, .checklist-board, .impact-lab, .modality-flow, .trust-meter, .cost-model-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ml-validation-flow article:not(:last-child)::after { display: none; }
   .loop-diagram { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .workflow-track, .workflow-track-six { grid-template-columns: 1fr; gap: 16px; }
   .workflow-step + .workflow-step { border-left: 1px solid #dfe5ec; }
@@ -807,7 +835,7 @@
   .solution-lead { font-size: 17px; }
   .solution-section { padding: 68px 0; }
   .solution-section h2 { font-size: 30px; }
-  .solution-grid, .principle-grid, .boundary-grid, .status-panel, .metric-grid, .evidence-portfolio-grid, .evidence-chart-grid, .evidence-impact-grid, .evidence-comparison, .contrast-flow, .pathway-map, .loop-diagram, .checklist-board, .impact-lab, .modality-flow, .trust-meter, .comparison-bars, .cost-model-grid { grid-template-columns: 1fr; }
+  .solution-grid, .principle-grid, .boundary-grid, .status-panel, .metric-grid, .evidence-portfolio-grid, .evidence-chart-grid, .evidence-impact-grid, .evidence-impact-grid-three, .evidence-signal-strip, .ml-validation-flow, .evidence-comparison, .contrast-flow, .pathway-map, .loop-diagram, .checklist-board, .impact-lab, .modality-flow, .trust-meter, .comparison-bars, .cost-model-grid { grid-template-columns: 1fr; }
   .evidence-plot { min-height: 330px; }
   .solution-card { min-height: 0; }
   .metric-card { min-height: 0; }
