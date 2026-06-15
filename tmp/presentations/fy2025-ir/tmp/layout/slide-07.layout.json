@@ -1,0 +1,1045 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/4ku7mz",
+    "id": "4ku7mz",
+    "slide": 7,
+    "layoutId": "3c3cac12-c87b-4bef-8a27-dd74cf4ca5d2",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "a8d85943-4804-447c-a147-6bbbc7a73a0a",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "BreastScreening-AI IR",
+    "colors": {
+      "accent1": "#1066FF",
+      "accent2": "#16A06D",
+      "accent3": "#C68215",
+      "accent4": "#D84A4A",
+      "accent5": "#6C63FF",
+      "accent6": "#2F80ED",
+      "bg1": "#FFFFFF",
+      "bg2": "#F7FAFD",
+      "tx1": "#172033",
+      "tx2": "#5F6B7A",
+      "dk1": "#000000",
+      "dk2": "#0B1F3A",
+      "lt1": "#FFFFFF",
+      "lt2": "#DCE6F2",
+      "hlink": "#1066FF",
+      "folHlink": "#6C63FF"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "3c3cac12-c87b-4bef-8a27-dd74cf4ca5d2",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "a8d85943-4804-447c-a147-6bbbc7a73a0a",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "a8d85943-4804-447c-a147-6bbbc7a73a0a",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jqh0fep",
+      "id": "1",
+      "bbox": [
+        70,
+        38,
+        260,
+        24
+      ],
+      "geometry": "rect",
+      "text": "BreastScreening-AI",
+      "textPreview": "BreastScreening-AI",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BreastScreening-AI"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BreastScreening-AI",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BreastScreening-AI",
+              "fontSize": 13,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fyxobm58",
+      "id": "2",
+      "bbox": [
+        70,
+        66,
+        150,
+        6
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1066FF",
+      "lineColor": "#1066FF",
+      "lineWidth": 1
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qd4vmtwr",
+      "id": "3",
+      "bbox": [
+        70,
+        104,
+        460,
+        24
+      ],
+      "geometry": "rect",
+      "text": "TECHNOLOGY",
+      "textPreview": "TECHNOLOGY",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#1066FF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TECHNOLOGY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TECHNOLOGY",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#1066FF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TECHNOLOGY",
+              "fontSize": 12,
+              "color": "#1066FF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xczed8v6",
+      "id": "4",
+      "bbox": [
+        70,
+        136,
+        760,
+        100
+      ],
+      "geometry": "rect",
+      "text": "Multimodality is the practical AI architecture for breast imaging",
+      "textPreview": "Multimodality is the practical AI architecture for breast imaging",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Multimodality is the practical AI"
+          },
+          {
+            "index": 2,
+            "text": "architecture for breast imaging"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Multimodality is the practical AI architecture for breast imaging",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Multimodality is the practical AI architecture for breast imaging",
+              "fontSize": 38,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8v6psfil",
+      "id": "5",
+      "bbox": [
+        70,
+        232,
+        850,
+        54
+      ],
+      "geometry": "rect",
+      "text": "The source-backed story supports MG, US, and MRI as complementary clinical information channels to be detailed through workflow evidence.",
+      "textPreview": "The source-backed story supports MG, US, and MRI as complementary clinical information channels to be detailed through workflow evidence.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The source-backed story supports MG, US, and MRI as complementary clinical information channels"
+          },
+          {
+            "index": 2,
+            "text": "to be detailed through workflow evidence."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The source-backed story supports MG, US, and MRI as complementary clinical information channels to be detailed through workflow evidence.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#5F6B7A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The source-backed story supports MG, US, and MRI as complementary clinical information channels to be detailed through workflow evidence.",
+              "fontSize": 18,
+              "color": "#5F6B7A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fa9w3m94",
+      "id": "6",
+      "bbox": [
+        70,
+        666,
+        1140,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#DCE6F2",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpg3ex0n",
+      "id": "7",
+      "bbox": [
+        72,
+        675,
+        850,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Source-backed company materials and accounting records",
+      "textPreview": "Source-backed company materials and accounting records",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#758398",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source-backed company materials and accounting records"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source-backed company materials and accounting records",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#758398",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source-backed company materials and accounting records",
+              "fontSize": 10,
+              "color": "#758398",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1gvy90je",
+      "id": "8",
+      "bbox": [
+        1148,
+        675,
+        60,
+        22
+      ],
+      "geometry": "rect",
+      "text": "07",
+      "textPreview": "07",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#758398",
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#758398",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07",
+              "fontSize": 10,
+              "color": "#758398",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8z25kb6x",
+      "id": "9",
+      "bbox": [
+        90,
+        300,
+        300,
+        220
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DCE6F2",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9w3m94f",
+      "id": "10",
+      "bbox": [
+        108,
+        318,
+        42,
+        6
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1066FF",
+      "lineColor": "#1066FF",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zupwb2hw",
+      "id": "11",
+      "bbox": [
+        108,
+        338,
+        264,
+        34
+      ],
+      "geometry": "rect",
+      "text": "MG",
+      "textPreview": "MG",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MG"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MG",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MG",
+              "fontSize": 20,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfil0rqd",
+      "id": "12",
+      "bbox": [
+        108,
+        378,
+        264,
+        128
+      ],
+      "geometry": "rect",
+      "text": "Screening backbone and population-scale imaging channel. Useful for detection and triage workflows.",
+      "textPreview": "Screening backbone and population-scale imaging channel. Useful for detection and triage workflows.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Screening backbone and"
+          },
+          {
+            "index": 2,
+            "text": "population-scale imaging channel."
+          },
+          {
+            "index": 3,
+            "text": "Useful for detection and triage"
+          },
+          {
+            "index": 4,
+            "text": "workflows."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Screening backbone and population-scale imaging channel. Useful for detection and triage workflows.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#5F6B7A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Screening backbone and population-scale imaging channel. Useful for detection and triage workflows.",
+              "fontSize": 15,
+              "color": "#5F6B7A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h0fepkzu",
+      "id": "13",
+      "bbox": [
+        490,
+        300,
+        300,
+        220
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DCE6F2",
+      "lineWidth": 1
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al87ed8b",
+      "id": "14",
+      "bbox": [
+        508,
+        318,
+        42,
+        6
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#16A06D",
+      "lineColor": "#16A06D",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z61032ls",
+      "id": "15",
+      "bbox": [
+        508,
+        338,
+        264,
+        34
+      ],
+      "geometry": "rect",
+      "text": "US",
+      "textPreview": "US",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "US"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "US",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "US",
+              "fontSize": 20,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/orytsvu9",
+      "id": "16",
+      "bbox": [
+        508,
+        378,
+        264,
+        128
+      ],
+      "geometry": "rect",
+      "text": "Complementary assessment channel, often relevant when mammography alone is insufficient for clinical decisions.",
+      "textPreview": "Complementary assessment channel, often relevant when mammography alone is insufficient for clinical decisions.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Complementary assessment"
+          },
+          {
+            "index": 2,
+            "text": "channel, often relevant when"
+          },
+          {
+            "index": 3,
+            "text": "mammography alone is insufficient"
+          },
+          {
+            "index": 4,
+            "text": "for clinical decisions."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Complementary assessment channel, often relevant when mammography alone is insufficient for clinical decisions.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#5F6B7A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Complementary assessment channel, often relevant when mammography alone is insufficient for clinical decisions.",
+              "fontSize": 15,
+              "color": "#5F6B7A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcrmhk3q",
+      "id": "17",
+      "bbox": [
+        890,
+        300,
+        300,
+        220
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DCE6F2",
+      "lineWidth": 1
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xkf6dcb",
+      "id": "18",
+      "bbox": [
+        908,
+        318,
+        42,
+        6
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#C68215",
+      "lineColor": "#C68215",
+      "lineWidth": 1
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zed8v6ps",
+      "id": "19",
+      "bbox": [
+        908,
+        338,
+        264,
+        34
+      ],
+      "geometry": "rect",
+      "text": "MRI",
+      "textPreview": "MRI",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MRI"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MRI",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MRI",
+              "fontSize": 20,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nih4byhg",
+      "id": "20",
+      "bbox": [
+        908,
+        378,
+        264,
+        128
+      ],
+      "geometry": "rect",
+      "text": "High-information modality for selected diagnostic contexts and multimodal fusion research.",
+      "textPreview": "High-information modality for selected diagnostic contexts and multimodal fusion research.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "High-information modality for"
+          },
+          {
+            "index": 2,
+            "text": "selected diagnostic contexts and"
+          },
+          {
+            "index": 3,
+            "text": "multimodal fusion research."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "High-information modality for selected diagnostic contexts and multimodal fusion research.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#5F6B7A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "High-information modality for selected diagnostic contexts and multimodal fusion research.",
+              "fontSize": 15,
+              "color": "#5F6B7A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxobm58z",
+      "id": "21",
+      "bbox": [
+        90,
+        552,
+        1030,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Technology thesis: value increases when AI respects clinical modality roles instead of treating breast imaging as a single-image problem.",
+      "textPreview": "Technology thesis: value increases when AI respects clinical modality roles instead of treating breast imaging as a single-image problem.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Technology thesis: value increases when AI respects clinical modality roles instead of treating breast"
+          },
+          {
+            "index": 2,
+            "text": "imaging as a single-image problem."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Technology thesis: value increases when AI respects clinical modality roles instead of treating breast imaging as a single-image problem.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Technology thesis: value increases when AI respects clinical modality roles instead of treating breast imaging as a single-image problem.",
+              "fontSize": 20,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

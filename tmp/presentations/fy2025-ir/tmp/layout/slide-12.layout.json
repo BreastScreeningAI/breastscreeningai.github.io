@@ -1,0 +1,1422 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/0d2opp",
+    "id": "0d2opp",
+    "slide": 12,
+    "layoutId": "3c3cac12-c87b-4bef-8a27-dd74cf4ca5d2",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "a8d85943-4804-447c-a147-6bbbc7a73a0a",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "BreastScreening-AI IR",
+    "colors": {
+      "accent1": "#1066FF",
+      "accent2": "#16A06D",
+      "accent3": "#C68215",
+      "accent4": "#D84A4A",
+      "accent5": "#6C63FF",
+      "accent6": "#2F80ED",
+      "bg1": "#FFFFFF",
+      "bg2": "#F7FAFD",
+      "tx1": "#172033",
+      "tx2": "#5F6B7A",
+      "dk1": "#000000",
+      "dk2": "#0B1F3A",
+      "lt1": "#FFFFFF",
+      "lt2": "#DCE6F2",
+      "hlink": "#1066FF",
+      "folHlink": "#6C63FF"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "3c3cac12-c87b-4bef-8a27-dd74cf4ca5d2",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "a8d85943-4804-447c-a147-6bbbc7a73a0a",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "a8d85943-4804-447c-a147-6bbbc7a73a0a",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bi9s36hc",
+      "id": "1",
+      "bbox": [
+        70,
+        38,
+        260,
+        24
+      ],
+      "geometry": "rect",
+      "text": "BreastScreening-AI",
+      "textPreview": "BreastScreening-AI",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BreastScreening-AI"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BreastScreening-AI",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BreastScreening-AI",
+              "fontSize": 13,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/032lszqt",
+      "id": "2",
+      "bbox": [
+        70,
+        66,
+        150,
+        6
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1066FF",
+      "lineColor": "#1066FF",
+      "lineWidth": 1
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tovahoza",
+      "id": "3",
+      "bbox": [
+        70,
+        104,
+        460,
+        24
+      ],
+      "geometry": "rect",
+      "text": "FINANCIAL HIGHLIGHTS",
+      "textPreview": "FINANCIAL HIGHLIGHTS",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#1066FF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FINANCIAL HIGHLIGHTS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FINANCIAL HIGHLIGHTS",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#1066FF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FINANCIAL HIGHLIGHTS",
+              "fontSize": 12,
+              "color": "#1066FF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i9s36hcr",
+      "id": "4",
+      "bbox": [
+        70,
+        136,
+        760,
+        100
+      ],
+      "geometry": "rect",
+      "text": "FY2025 improved; interim FY2026 flags cash planning",
+      "textPreview": "FY2025 improved; interim FY2026 flags cash planning",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FY2025 improved; interim FY2026 flags"
+          },
+          {
+            "index": 2,
+            "text": "cash planning"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FY2025 improved; interim FY2026 flags cash planning",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FY2025 improved; interim FY2026 flags cash planning",
+              "fontSize": 38,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bulwval8",
+      "id": "5",
+      "bbox": [
+        70,
+        232,
+        850,
+        54
+      ],
+      "geometry": "rect",
+      "text": "These figures should anchor investor diligence before any forward-looking forecast is issued.",
+      "textPreview": "These figures should anchor investor diligence before any forward-looking forecast is issued.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "These figures should anchor investor diligence before any forward-looking forecast is issued."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "These figures should anchor investor diligence before any forward-looking forecast is issued.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#5F6B7A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "These figures should anchor investor diligence before any forward-looking forecast is issued.",
+              "fontSize": 18,
+              "color": "#5F6B7A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fepkzup",
+      "id": "6",
+      "bbox": [
+        70,
+        666,
+        1140,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#DCE6F2",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p0bi9s36",
+      "id": "7",
+      "bbox": [
+        72,
+        675,
+        850,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Source-backed company materials and accounting records",
+      "textPreview": "Source-backed company materials and accounting records",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#758398",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source-backed company materials and accounting records"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source-backed company materials and accounting records",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#758398",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source-backed company materials and accounting records",
+              "fontSize": 10,
+              "color": "#758398",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/idonyd0z",
+      "id": "8",
+      "bbox": [
+        1148,
+        675,
+        60,
+        22
+      ],
+      "geometry": "rect",
+      "text": "12",
+      "textPreview": "12",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#758398",
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#758398",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "12",
+              "fontSize": 10,
+              "color": "#758398",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byhgn29g",
+      "id": "9",
+      "bbox": [
+        85,
+        320,
+        500,
+        245
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DCE6F2",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "10",
+      "bbox": [
+        105,
+        338,
+        460,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Net result (EUR)",
+      "textPreview": "Net result (EUR)",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Net result (EUR)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Net result (EUR)",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Net result (EUR)",
+              "fontSize": 18,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p8nqxs7",
+      "id": "11",
+      "bbox": [
+        160,
+        488,
+        70,
+        65.94
+      ],
+      "geometry": "rect",
+      "fillColor": "#C68215",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gr2p8nq",
+      "id": "12",
+      "bbox": [
+        142,
+        559.94,
+        110,
+        22
+      ],
+      "geometry": "rect",
+      "text": "EUR -711.69",
+      "textPreview": "EUR -711.69",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "EUR -711.69"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "EUR -711.69",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "EUR -711.69",
+              "fontSize": 11,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvy90je9",
+      "id": "13",
+      "bbox": [
+        145,
+        527,
+        100,
+        22
+      ],
+      "geometry": "rect",
+      "text": "FY2024",
+      "textPreview": "FY2024",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FY2024"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FY2024",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#5F6B7A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FY2024",
+              "fontSize": 12,
+              "color": "#5F6B7A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r2p8nqxs",
+      "id": "14",
+      "bbox": [
+        295,
+        384,
+        70,
+        104
+      ],
+      "geometry": "rect",
+      "fillColor": "#16A06D",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hwfyxob",
+      "id": "15",
+      "bbox": [
+        277,
+        358,
+        110,
+        22
+      ],
+      "geometry": "rect",
+      "text": "EUR 1,122.49",
+      "textPreview": "EUR 1,122.49",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "EUR 1,122.49"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "EUR 1,122.49",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "EUR 1,122.49",
+              "fontSize": 11,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94fu18jq",
+      "id": "16",
+      "bbox": [
+        280,
+        527,
+        100,
+        22
+      ],
+      "geometry": "rect",
+      "text": "FY2025",
+      "textPreview": "FY2025",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FY2025"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FY2025",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#5F6B7A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FY2025",
+              "fontSize": 12,
+              "color": "#5F6B7A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjm1cfa9",
+      "id": "17",
+      "bbox": [
+        135,
+        488,
+        410,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#DCE6F2",
+      "lineWidth": 1
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqd4vmtw",
+      "id": "18",
+      "bbox": [
+        650,
+        320,
+        500,
+        245
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DCE6F2",
+      "lineWidth": 1
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/25kb6xkf",
+      "id": "19",
+      "bbox": [
+        670,
+        338,
+        460,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Cash and deposits (EUR)",
+      "textPreview": "Cash and deposits (EUR)",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Cash and deposits (EUR)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Cash and deposits (EUR)",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cash and deposits (EUR)",
+              "fontSize": 18,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5gbq1or",
+      "id": "20",
+      "bbox": [
+        725,
+        468.55,
+        70,
+        19.45
+      ],
+      "geometry": "rect",
+      "fillColor": "#1066FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m94fu18",
+      "id": "21",
+      "bbox": [
+        707,
+        442.55,
+        110,
+        22
+      ],
+      "geometry": "rect",
+      "text": "EUR 721.34",
+      "textPreview": "EUR 721.34",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "EUR 721.34"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "EUR 721.34",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "EUR 721.34",
+              "fontSize": 11,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72x4nap",
+      "id": "22",
+      "bbox": [
+        710,
+        527,
+        100,
+        22
+      ],
+      "geometry": "rect",
+      "text": "FY2024",
+      "textPreview": "FY2024",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FY2024"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FY2024",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#5F6B7A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FY2024",
+              "fontSize": 12,
+              "color": "#5F6B7A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lszqtcj6",
+      "id": "23",
+      "bbox": [
+        860,
+        384,
+        70,
+        104
+      ],
+      "geometry": "rect",
+      "fillColor": "#16A06D",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adsji5sn",
+      "id": "24",
+      "bbox": [
+        842,
+        358,
+        110,
+        22
+      ],
+      "geometry": "rect",
+      "text": "EUR 3,856.90",
+      "textPreview": "EUR 3,856.90",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "EUR 3,856.90"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "EUR 3,856.90",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "EUR 3,856.90",
+              "fontSize": 11,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ylc7u54",
+      "id": "25",
+      "bbox": [
+        845,
+        527,
+        100,
+        22
+      ],
+      "geometry": "rect",
+      "text": "FY2025",
+      "textPreview": "FY2025",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FY2025"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FY2025",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#5F6B7A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FY2025",
+              "fontSize": 12,
+              "color": "#5F6B7A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "26",
+      "bbox": [
+        995,
+        480,
+        70,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#C68215",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "27",
+      "bbox": [
+        977,
+        454,
+        110,
+        22
+      ],
+      "geometry": "rect",
+      "text": "EUR 258.30",
+      "textPreview": "EUR 258.30",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "EUR 258.30"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "EUR 258.30",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "EUR 258.30",
+              "fontSize": 11,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap4r65wj",
+      "id": "28",
+      "bbox": [
+        980,
+        527,
+        100,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Interim 2026",
+      "textPreview": "Interim 2026",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Interim 2026"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Interim 2026",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#5F6B7A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Interim 2026",
+              "fontSize": 12,
+              "color": "#5F6B7A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za1gvy90",
+      "id": "29",
+      "bbox": [
+        700,
+        488,
+        410,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#DCE6F2",
+      "lineWidth": 1
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9s36hcrm",
+      "id": "30",
+      "bbox": [
+        88,
+        578,
+        1050,
+        38
+      ],
+      "geometry": "rect",
+      "text": "FY2025 source-backed signals: EUR 12,458.22 assets, EUR 3,510.80 equity, EUR 8,947.42 liabilities, EUR 24,500.00 subsidies, EUR 100.00 sales and services.",
+      "textPreview": "FY2025 source-backed signals: EUR 12,458.22 assets, EUR 3,510.80 equity, EUR 8,947.42 liabilities, EUR 24,500.00 subsidies, EUR 100.00 sa...",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#172033",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FY2025 source-backed signals: EUR 12,458.22 assets, EUR 3,510.80 equity, EUR 8,947.42 liabilities, EUR 24,500.00 subsidies,"
+          },
+          {
+            "index": 2,
+            "text": "EUR 100.00 sales and services."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FY2025 source-backed signals: EUR 12,458.22 assets, EUR 3,510.80 equity, EUR 8,947.42 liabilities, EUR 24,500.00 subsidies, EUR 100.00 sales and services.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#172033",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FY2025 source-backed signals: EUR 12,458.22 assets, EUR 3,510.80 equity, EUR 8,947.42 liabilities, EUR 24,500.00 subsidies, EUR 100.00 sales and services.",
+              "fontSize": 18,
+              "color": "#172033",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

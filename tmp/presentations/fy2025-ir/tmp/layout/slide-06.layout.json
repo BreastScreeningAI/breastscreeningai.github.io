@@ -1,0 +1,1131 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/00l7da",
+    "id": "00l7da",
+    "slide": 6,
+    "layoutId": "3c3cac12-c87b-4bef-8a27-dd74cf4ca5d2",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "a8d85943-4804-447c-a147-6bbbc7a73a0a",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "BreastScreening-AI IR",
+    "colors": {
+      "accent1": "#1066FF",
+      "accent2": "#16A06D",
+      "accent3": "#C68215",
+      "accent4": "#D84A4A",
+      "accent5": "#6C63FF",
+      "accent6": "#2F80ED",
+      "bg1": "#FFFFFF",
+      "bg2": "#F7FAFD",
+      "tx1": "#172033",
+      "tx2": "#5F6B7A",
+      "dk1": "#000000",
+      "dk2": "#0B1F3A",
+      "lt1": "#FFFFFF",
+      "lt2": "#DCE6F2",
+      "hlink": "#1066FF",
+      "folHlink": "#6C63FF"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "3c3cac12-c87b-4bef-8a27-dd74cf4ca5d2",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "a8d85943-4804-447c-a147-6bbbc7a73a0a",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "a8d85943-4804-447c-a147-6bbbc7a73a0a",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3ylc7u5",
+      "id": "1",
+      "bbox": [
+        70,
+        38,
+        260,
+        24
+      ],
+      "geometry": "rect",
+      "text": "BreastScreening-AI",
+      "textPreview": "BreastScreening-AI",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BreastScreening-AI"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BreastScreening-AI",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BreastScreening-AI",
+              "fontSize": 13,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji5snelo",
+      "id": "2",
+      "bbox": [
+        70,
+        66,
+        150,
+        6
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1066FF",
+      "lineColor": "#1066FF",
+      "lineWidth": 1
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxc3ylc7",
+      "id": "3",
+      "bbox": [
+        70,
+        104,
+        460,
+        24
+      ],
+      "geometry": "rect",
+      "text": "PRODUCT OVERVIEW",
+      "textPreview": "PRODUCT OVERVIEW",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#1066FF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PRODUCT OVERVIEW"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PRODUCT OVERVIEW",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#1066FF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PRODUCT OVERVIEW",
+              "fontSize": 12,
+              "color": "#1066FF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cfa9w3m",
+      "id": "4",
+      "bbox": [
+        70,
+        136,
+        760,
+        100
+      ],
+      "geometry": "rect",
+      "text": "Four public product surfaces, one diligence narrative",
+      "textPreview": "Four public product surfaces, one diligence narrative",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Four public product surfaces, one"
+          },
+          {
+            "index": 2,
+            "text": "diligence narrative"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Four public product surfaces, one diligence narrative",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Four public product surfaces, one diligence narrative",
+              "fontSize": 38,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crmhk3q5",
+      "id": "5",
+      "bbox": [
+        70,
+        232,
+        850,
+        54
+      ],
+      "geometry": "rect",
+      "text": "The website architecture now separates business value, workflow impact, overall evidence, and investor reporting.",
+      "textPreview": "The website architecture now separates business value, workflow impact, overall evidence, and investor reporting.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The website architecture now separates business value, workflow impact, overall evidence, and"
+          },
+          {
+            "index": 2,
+            "text": "investor reporting."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The website architecture now separates business value, workflow impact, overall evidence, and investor reporting.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#5F6B7A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The website architecture now separates business value, workflow impact, overall evidence, and investor reporting.",
+              "fontSize": 18,
+              "color": "#5F6B7A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6tovaho",
+      "id": "6",
+      "bbox": [
+        70,
+        666,
+        1140,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#DCE6F2",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulwval87",
+      "id": "7",
+      "bbox": [
+        72,
+        675,
+        850,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Source-backed company materials and accounting records",
+      "textPreview": "Source-backed company materials and accounting records",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#758398",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source-backed company materials and accounting records"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source-backed company materials and accounting records",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#758398",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source-backed company materials and accounting records",
+              "fontSize": 10,
+              "color": "#758398",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18jqh0fe",
+      "id": "8",
+      "bbox": [
+        1148,
+        675,
+        60,
+        22
+      ],
+      "geometry": "rect",
+      "text": "06",
+      "textPreview": "06",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#758398",
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#758398",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "06",
+              "fontSize": 10,
+              "color": "#758398",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nqxs72x",
+      "id": "9",
+      "bbox": [
+        80,
+        310,
+        250,
+        210
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DCE6F2",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al87ed8b",
+      "id": "10",
+      "bbox": [
+        98,
+        328,
+        42,
+        6
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1066FF",
+      "lineColor": "#1066FF",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z61032ls",
+      "id": "11",
+      "bbox": [
+        98,
+        348,
+        214,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Platform",
+      "textPreview": "Platform",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Platform"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Platform",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Platform",
+              "fontSize": 20,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/orytsvu9",
+      "id": "12",
+      "bbox": [
+        98,
+        388,
+        214,
+        118
+      ],
+      "geometry": "rect",
+      "text": "Business value, market framing, and multimodality rationale.",
+      "textPreview": "Business value, market framing, and multimodality rationale.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Business value, market"
+          },
+          {
+            "index": 2,
+            "text": "framing, and multimodality"
+          },
+          {
+            "index": 3,
+            "text": "rationale."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Business value, market framing, and multimodality rationale.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#5F6B7A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Business value, market framing, and multimodality rationale.",
+              "fontSize": 15,
+              "color": "#5F6B7A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcrmhk3q",
+      "id": "13",
+      "bbox": [
+        365,
+        310,
+        250,
+        210
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DCE6F2",
+      "lineWidth": 1
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9w3m94f",
+      "id": "14",
+      "bbox": [
+        383,
+        328,
+        42,
+        6
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#16A06D",
+      "lineColor": "#16A06D",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zupwb2hw",
+      "id": "15",
+      "bbox": [
+        383,
+        348,
+        214,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Workflow",
+      "textPreview": "Workflow",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Workflow"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Workflow",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Workflow",
+              "fontSize": 20,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfil0rqd",
+      "id": "16",
+      "bbox": [
+        383,
+        388,
+        214,
+        118
+      ],
+      "geometry": "rect",
+      "text": "Operational clinical workflow impact and process logic.",
+      "textPreview": "Operational clinical workflow impact and process logic.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Operational clinical workflow"
+          },
+          {
+            "index": 2,
+            "text": "impact and process logic."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Operational clinical workflow impact and process logic.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#5F6B7A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Operational clinical workflow impact and process logic.",
+              "fontSize": 15,
+              "color": "#5F6B7A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h0fepkzu",
+      "id": "17",
+      "bbox": [
+        650,
+        310,
+        250,
+        210
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DCE6F2",
+      "lineWidth": 1
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65wjudg7",
+      "id": "18",
+      "bbox": [
+        668,
+        328,
+        42,
+        6
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#C68215",
+      "lineColor": "#C68215",
+      "lineWidth": 1
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zqtcj6to",
+      "id": "19",
+      "bbox": [
+        668,
+        348,
+        214,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Evidence",
+      "textPreview": "Evidence",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Evidence"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Evidence",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Evidence",
+              "fontSize": 20,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byhgn29g",
+      "id": "20",
+      "bbox": [
+        668,
+        388,
+        214,
+        118
+      ],
+      "geometry": "rect",
+      "text": "Overall evidence, research maturity, and validation roadmap.",
+      "textPreview": "Overall evidence, research maturity, and validation roadmap.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Overall evidence, research"
+          },
+          {
+            "index": 2,
+            "text": "maturity, and validation"
+          },
+          {
+            "index": 3,
+            "text": "roadmap."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Overall evidence, research maturity, and validation roadmap.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#5F6B7A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Overall evidence, research maturity, and validation roadmap.",
+              "fontSize": 15,
+              "color": "#5F6B7A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/idonyd0z",
+      "id": "21",
+      "bbox": [
+        935,
+        310,
+        250,
+        210
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DCE6F2",
+      "lineWidth": 1
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t47y1kre",
+      "id": "22",
+      "bbox": [
+        953,
+        328,
+        42,
+        6
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0B1F3A",
+      "lineColor": "#0B1F3A",
+      "lineWidth": 1
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0je9cvix",
+      "id": "23",
+      "bbox": [
+        953,
+        348,
+        214,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Reports",
+      "textPreview": "Reports",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#0B1F3A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reports"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reports",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#0B1F3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reports",
+              "fontSize": 20,
+              "color": "#0B1F3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "24",
+      "bbox": [
+        953,
+        388,
+        214,
+        118
+      ],
+      "geometry": "rect",
+      "text": "Financial statements, IR presentations, letters, news, and notices.",
+      "textPreview": "Financial statements, IR presentations, letters, news, and notices.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#5F6B7A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Financial statements, IR"
+          },
+          {
+            "index": 2,
+            "text": "presentations, letters, news,"
+          },
+          {
+            "index": 3,
+            "text": "and notices."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Financial statements, IR presentations, letters, news, and notices.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#5F6B7A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Financial statements, IR presentations, letters, news, and notices.",
+              "fontSize": 15,
+              "color": "#5F6B7A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

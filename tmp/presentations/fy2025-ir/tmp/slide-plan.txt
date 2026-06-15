@@ -1,0 +1,28 @@
+Mode: create
+Final PPTX: media/reports/breastscreeningai_ir_presentation_2025.pptx
+Companion PDF: media/reports/breastscreeningai_ir_presentation_2025.pdf
+
+Audience: existing and prospective investors, strategic partners, and diligence reviewers.
+Constraint: use only supported facts and figures; no invented customers, revenue, valuation, regulatory status, or partnerships.
+
+Visual style:
+- Slide size: 1280 x 720.
+- Palette: navy #0B1F3A dominant, white #FFFFFF, soft blue #EEF5FF, blue #1066FF accent, teal #16A06D positive accent, amber #C68215 risk/caution.
+- Fonts: Aptos Display for titles, Aptos for body and labels.
+- Scale: cover title 52-60px, slide titles 34-40px, section labels 12-14px, body 17-22px, KPI numbers 36-54px, footers 10px.
+
+Slide list:
+1. Cover - FY2025 IR Presentation.
+2. Executive snapshot - transition year, evidence base, source-backed discipline.
+3. Vision and mission - breast imaging AI, multimodality, hospital-facing value.
+4. Problem - clinical, workflow, financial, and evidence translation pressures.
+5. Solution - product logic and value pillars.
+6. Product overview - platform, workflow, evidence, reporting.
+7. Technology - multimodality and human-centered AI evidence stack.
+8. Evidence and research foundation - supported scope and unsupported claims.
+9. Market opportunity - qualitative opportunity framing, no unsupported TAM.
+10. Business model - credible future model categories and current evidence status.
+11. Partnerships and ecosystem - only supported ecosystem categories and EIC record.
+12. Financial highlights - FY2024 to FY2025, interim FY2026 context.
+13. Milestones and risks - timeline and source-backed risk register.
+14. Growth strategy and outlook - priorities and information needed next.

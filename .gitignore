@@ -129,11 +129,40 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# macOS files
+# macOS and Finder metadata
 .DS_Store
+.DS_Store?
+**/.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+.VolumeIcon.icns
+Icon?
 
-# Windows files
+# Windows and thumbnail metadata
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux desktop metadata
+.directory
+
+# Editor and IDE files
 .vscode/
 .idea/
 *.sublime-project
-*.sublime-workspace.DS_Store
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Office temporary and lock files
+~$*
+*.tmp

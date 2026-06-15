@@ -1,0 +1,19 @@
+Visual QA - FY2025 Investor Relations Presentation
+
+Reviewed:
+- Contact sheet covering all 14 slides.
+- Full-size Slide 12 after title fix.
+- Full-size Slide 13 after replacing the dense table with risk cards.
+- Companion PDF metadata via pdfinfo.
+
+Findings:
+- Cover KPI contrast corrected after initial review.
+- Slide 12 title/subtitle overlap corrected by shortening the title.
+- Slide 13 native table readability issue corrected by replacing it with four editable risk cards.
+- Final deck uses source-backed figures and explicitly flags unsupported claims.
+- Final PPTX exported successfully.
+- Companion PDF contains 14 pages and matches the rendered slide previews.
+
+Remaining known limitations:
+- The PDF is a visual companion assembled from slide previews; the editable artifact is the PPTX.
+- Source evidence does not support customer, valuation, regulatory, audited-account, or recurring-revenue claims.

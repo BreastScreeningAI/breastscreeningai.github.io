@@ -1,0 +1,45 @@
+Deck: BreastScreening-AI FY2025 Investor Relations Presentation
+Reporting period: fiscal year ended 31 December 2025
+Publication date: 15 June 2026
+
+Supported financial facts:
+- FY2024 total assets: EUR 1,123.38.
+- FY2024 cash and deposits: EUR 721.34.
+- FY2024 equity: EUR -611.69.
+- FY2024 liabilities: EUR 1,735.07.
+- FY2024 subsidies: EUR 1,796.63.
+- FY2024 net result: EUR -711.69.
+- FY2025 total assets: EUR 12,458.22.
+- FY2025 equity: EUR 3,510.80.
+- FY2025 liabilities: EUR 8,947.42.
+- FY2025 cash and deposits: EUR 3,856.90.
+- FY2025 subsidies: EUR 24,500.00.
+- FY2025 sales and services: EUR 100.00.
+- FY2025 other income: EUR 3,000.00.
+- FY2025 external services: EUR 17,760.11.
+- FY2025 personnel expenses: EUR 5,852.31.
+- FY2025 supplier liabilities: EUR 7,227.74.
+- FY2025 net result: EUR 1,122.49.
+- Interim FY2026, dated 28 February 2026: total assets EUR 7,476.39.
+- Interim FY2026 cash and deposits: EUR 258.30.
+- Interim FY2026 equity: EUR -1,064.88.
+- Interim FY2026 liabilities: EUR 8,541.27.
+- Interim FY2026 supplier liabilities: EUR 7,866.32.
+- Interim FY2026 net result: EUR -4,575.68.
+
+Supported funding facts:
+- EIC Pre-Accelerator expected amount: up to EUR 500,000.
+- Horizon Europe Lump Sum Grant proposal: 101310071.
+- Duration: 18 months.
+- Grant Agreement ready for signature: 10 June 2026.
+- Coordinator signature: 12 June 2026.
+- EU services signature and final payment schedule: pending in accessible evidence.
+
+Supported narrative facts:
+- Uploaded scientific and business materials support a narrative centered on breast imaging AI, multimodality clinical workflow, evidence development, and translation toward hospital-facing value.
+- The available financial source set does not establish audited accounts, signed customer contracts, recurring revenue, valuation, regulatory authorization, final EIC payment timing, or customer-level deployment metrics.
+
+Presentation provenance:
+- FY2024 and FY2025 signed balance sheet and income statement records from uploaded financial source set.
+- Interim FY2026 balance sheet and income statement records dated 28 February 2026.
+- User-provided EIC Pre-Accelerator records summary from this thread.
