@@ -3,391 +3,147 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Reports | BreastScreening-AI</title>
-    <meta name="description" content="Public reporting archive for BreastScreening-AI across Startup Voucher activities, evidence summaries, legal documents and project context." />
+    <title>IR & Financials | BreastScreening-AI</title>
+    <meta name="description" content="BreastScreening-AI IR and financials archive with annual financial statements, IR presentations, IR letters, and IR news and notices." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta property="og:title" content="Reports | BreastScreening-AI" />
-    <meta property="og:description" content="Public reports, evidence snapshots and project documents from BreastScreening-AI." />
+    <meta property="og:title" content="IR & Financials | BreastScreening-AI" />
+    <meta property="og:description" content="Financial reports, presentations and key filings from BreastScreening-AI." />
     <meta property="og:url" content="https://breastscreeningai.github.io/reports.html" />
     <meta property="og:type" content="website" />
-    <link rel="canonical" href="https://breastscreeningai.github.io/reports.html" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/icons.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/evidence.css" />
-    <style>
-      .reports-page .report-hero {
-        background: linear-gradient(180deg, #f8fbfd 0%, #eef5fb 100%);
-        padding: 170px 0 80px;
-      }
-      .reports-page .report-subnav a.active {
-        color: #10233c;
-        background: rgba(95, 143, 216, 0.12);
-      }
-      .reports-page .report-strip {
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 18px;
-        margin-top: 34px;
-      }
-      .reports-page .report-stat {
-        background: #fff;
-        border: 1px solid rgba(16, 42, 67, 0.1);
-        border-radius: 18px;
-        padding: 22px;
-        box-shadow: 0 18px 42px rgba(16, 42, 67, 0.08);
-      }
-      .reports-page .report-stat strong,
-      .reports-page .report-stat span {
-        display: block;
-      }
-      .reports-page .report-stat strong {
-        color: #10233c;
-        font-size: 2rem;
-        line-height: 1;
-        margin-bottom: 10px;
-      }
-      .reports-page .report-stat span {
-        color: #10233c;
-        font-weight: 700;
-        margin-bottom: 8px;
-      }
-      .reports-page .report-stat p,
-      .reports-page .report-card p,
-      .reports-page .report-panel p,
-      .reports-page .report-disclosure p {
-        margin: 0;
-      }
-      .reports-page .report-card-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 24px;
-      }
-      .reports-page .report-card,
-      .reports-page .report-panel,
-      .reports-page .report-disclosure,
-      .reports-page .chart-shell {
-        background: #fff;
-        border: 1px solid rgba(16, 42, 67, 0.1);
-        border-radius: 22px;
-        box-shadow: 0 18px 44px rgba(16, 42, 67, 0.08);
-      }
-      .reports-page .report-card {
-        padding: 28px;
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        min-height: 100%;
-      }
-      .reports-page .report-card-header,
-      .reports-page .report-panel-header {
-        display: flex;
-        justify-content: space-between;
-        gap: 16px;
-        align-items: flex-start;
-      }
-      .reports-page .report-card-header span,
-      .reports-page .report-panel-header span {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        min-width: 44px;
-        height: 44px;
-        border-radius: 12px;
-        background: rgba(95, 143, 216, 0.12);
-        color: #5f8fd8;
-        font-size: 1.2rem;
-      }
-      .reports-page .report-card h3,
-      .reports-page .report-panel h3,
-      .reports-page .chart-shell h3,
-      .reports-page .report-disclosure h2 {
-        color: #10233c;
-        margin-bottom: 8px;
-      }
-      .reports-page .report-meta-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
-      .reports-page .report-meta-list li {
-        border-radius: 999px;
-        background: #f1f6fb;
-        color: #48617c;
-        padding: 8px 12px;
-        font-size: 0.95rem;
-      }
-      .reports-page .report-card-actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        margin-top: auto;
-      }
-      .reports-page .report-link,
-      .reports-page .report-link-secondary {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        font-weight: 700;
-      }
-      .reports-page .report-link-secondary {
-        color: #5f8fd8;
-      }
-      .reports-page .report-grid-two {
-        display: grid;
-        grid-template-columns: 1.2fr 0.8fr;
-        gap: 24px;
-        align-items: start;
-      }
-      .reports-page .chart-shell,
-      .reports-page .report-panel,
-      .reports-page .report-disclosure {
-        padding: 28px;
-      }
-      .reports-page .plotly-chart {
-        width: 100%;
-        min-height: 360px;
-      }
-      .reports-page .report-panel dl {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 16px 20px;
-        margin: 20px 0 0;
-      }
-      .reports-page .report-panel dt {
-        color: #48617c;
-        font-weight: 700;
-        margin-bottom: 4px;
-      }
-      .reports-page .report-panel dd {
-        color: #10233c;
-        margin: 0;
-        font-weight: 700;
-      }
-      .reports-page .evidence-table-wrap {
-        overflow-x: auto;
-        border-radius: 18px;
-        border: 1px solid rgba(16, 42, 67, 0.08);
-      }
-      .reports-page .evidence-table-wrap table {
-        width: 100%;
-        min-width: 720px;
-        border-collapse: collapse;
-        background: #fff;
-      }
-      .reports-page .evidence-table-wrap th,
-      .reports-page .evidence-table-wrap td {
-        padding: 16px 18px;
-        border-bottom: 1px solid rgba(16, 42, 67, 0.08);
-        vertical-align: top;
-      }
-      .reports-page .evidence-table-wrap th {
-        color: #10233c;
-        background: #f8fbfd;
-        font-size: 0.95rem;
-      }
-      .reports-page .report-disclosure {
-        display: grid;
-        grid-template-columns: 0.8fr 1.2fr;
-        gap: 24px;
-        align-items: start;
-        background: linear-gradient(135deg, #10233c 0%, #163252 100%);
-        color: #fff;
-      }
-      .reports-page .report-disclosure .section-label,
-      .reports-page .report-disclosure h2,
-      .reports-page .report-disclosure p { color: #fff; }
-      @media (max-width: 991px) {
-        .reports-page .report-strip,
-        .reports-page .report-card-grid,
-        .reports-page .report-grid-two,
-        .reports-page .report-disclosure {
-          grid-template-columns: 1fr;
-        }
-        .reports-page .report-panel dl {
-          grid-template-columns: 1fr;
-        }
-      }
-      @media (max-width: 767px) {
-        .reports-page .report-hero { padding: 150px 0 70px; }
-        .reports-page .report-stat strong { font-size: 1.7rem; }
-        .reports-page .chart-shell,
-        .reports-page .report-panel,
-        .reports-page .report-card,
-        .reports-page .report-disclosure { padding: 22px; }
-      }
-    </style>
+    <link rel="stylesheet" href="assets/css/content-pages.css" />
   </head>
-  <body class="evidence-page reports-page">
+  <body class="content-page reports-page">
     <div class="preloader" aria-hidden="true"><div class="preloader-inner"><div class="preloader-icon"><span></span><span></span></div></div></div>
     <header class="header navbar-area"><div class="container"><div class="row align-items-center"><div class="col-lg-12"><div class="nav-inner">
       <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="index.html"><img src="assets/images/logo/logo-bs-main.svg" alt="BreastScreening-AI" /></a>
         <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="toggler-icon"></span><span class="toggler-icon"></span><span class="toggler-icon"></span></button>
-        <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent"><ul id="nav" class="navbar-nav ms-auto"><li class="nav-item"><a href="#overview">Overview</a></li><li class="nav-item"><a href="#archive">Archive</a></li><li class="nav-item"><a href="#comparison">Comparison</a></li><li class="nav-item"><a href="#sources">Sources</a></li></ul></div>
+        <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent"><ul id="nav" class="navbar-nav ms-auto"><li class="nav-item"><a href="#financials">Financials</a></li><li class="nav-item"><a href="#presentations">Presentations</a></li><li class="nav-item"><a href="#letters">Letters</a></li><li class="nav-item"><a href="#notices">Notices</a></li></ul></div>
         <div class="button add-list-button"><a href="index.html" class="btn"><i class="lni lni-arrow-left"></i> Main Site</a></div>
       </nav>
     </div></div></div></div></header>
 
     <main>
-      <section class="report-hero" aria-labelledby="reports-title"><div class="container">
-        <p class="report-kicker">Public report archive</p>
-        <h1 id="reports-title">Reports and evidence snapshots</h1>
-        <p class="report-lead">A public reporting page for BreastScreening-AI covering programme context, clinical evidence snapshots, public documents and supporting materials already disclosed on this website.</p>
-        <div class="report-meta" aria-label="Report metadata">
-          <span><i class="lni lni-calendar"></i> Updated 24 July 2026</span>
-          <span><i class="lni lni-protection"></i> Public-safe reporting only</span>
-          <span><i class="lni lni-stats-up"></i> TRL 5 progressing toward TRL 6</span>
-        </div>
-        <div class="report-strip" aria-label="Report summary">
-          <article class="report-stat"><strong>4</strong><span>core public reports</span><p>Evidence, voucher, story and legal documents published on the website.</p></article>
-          <article class="report-stat"><strong>14</strong><span>curated outputs</span><p>Four journal articles, five conference papers, one scientific exhibit, two theses and two patent families.</p></article>
-          <article class="report-stat"><strong>135</strong><span>study participations</span><p>Reported participations across the disclosed research portfolio. Cohorts may overlap.</p></article>
-          <article class="report-stat"><strong>25+</strong><span>hospitals engaged</span><p>Business-development, research and collaboration activity. Not 25 validation sites.</p></article>
+      <section class="content-hero ir-hero" aria-labelledby="reports-title"><div class="container">
+        <p class="content-kicker">Company reports</p>
+        <h1 id="reports-title">IR & Financials</h1>
+        <p class="content-lead">Access our financial reports, presentations and key filings all in one place.</p>
+        <div class="ir-hero-summary" aria-label="Report archive summary">
+          <span><strong>4</strong> report families</span>
+          <span><strong>4</strong> reporting years</span>
+          <span><strong>PDF</strong> archive format</span>
         </div>
       </div></section>
 
-      <nav class="report-subnav" aria-label="Report sections"><div class="container"><a href="#overview">Overview</a><a href="#archive">Archive</a><a href="#comparison">Comparison</a><a href="#sources">Sources</a><a href="#disclosure">Boundaries</a></div></nav>
-
-      <section id="overview" class="report-section"><div class="container">
-        <div class="section-heading"><p class="section-label">Overview</p><h2>What this page now reports</h2><p>This page replaces the old investor-relations placeholder with a public archive tied to the actual website content. It summarizes the main published materials, highlights a few disclosed figures and keeps the reporting boundaries explicit.</p></div>
-        <div class="report-card-grid">
-          <article class="report-card"><div class="report-card-header"><div><p class="section-label">Clinical programme</p><h3>Startup Voucher operation</h3></div><span><i class="lni lni-graph"></i></span></div><p>The Startup Voucher report documents the operation, Hospital da Luz exploratory pilot, CHTMAD fieldwork, TRL position and specialist providers supporting the programme.</p><ul class="report-meta-list"><li>Updated 14 June 2026</li><li>TRL 5 toward 6</li><li>PRR and EU support</li></ul><div class="report-card-actions"><a class="report-link" href="voucher.html">Open report <i class="lni lni-arrow-right"></i></a><a class="report-link-secondary" href="assets/recognitions/Sensiperception_Cartaz_VoucherStartups.pptx" download>Project poster <i class="lni lni-download"></i></a></div></article>
-          <article class="report-card"><div class="report-card-header"><div><p class="section-label">Evidence</p><h3>Portfolio and validation context</h3></div><span><i class="lni lni-layers"></i></span></div><p>The evidence page organizes the published research portfolio, validation journey, evidence layers and the remaining work needed for decision-grade clinical evidence.</p><ul class="report-meta-list"><li>14 curated outputs</li><li>12 scholarly outputs</li><li>Validation priorities</li></ul><div class="report-card-actions"><a class="report-link" href="evidence.html">Open evidence <i class="lni lni-arrow-right"></i></a><a class="report-link-secondary" href="publications.html">Publications <i class="lni lni-arrow-right"></i></a></div></article>
-          <article class="report-card"><div class="report-card-header"><div><p class="section-label">Company context</p><h3>Story and project lineage</h3></div><span><i class="lni lni-book"></i></span></div><p>The story page provides the narrative context behind the initiative, while the main site and publications pages carry the current public-facing positioning.</p><ul class="report-meta-list"><li>Historical context</li><li>Research lineage</li><li>Public positioning</li></ul><div class="report-card-actions"><a class="report-link" href="story.html">Open story <i class="lni lni-arrow-right"></i></a><a class="report-link-secondary" href="index.html">Main site <i class="lni lni-arrow-right"></i></a></div></article>
-          <article class="report-card"><div class="report-card-header"><div><p class="section-label">Compliance</p><h3>Legal and public-access documents</h3></div><span><i class="lni lni-files"></i></span></div><p>The public legal documents remain available from the website footer and can be reused whenever the site needs a stable disclosure package.</p><ul class="report-meta-list"><li>Terms</li><li>Privacy</li><li>Cookies</li></ul><div class="report-card-actions"><a class="report-link" href="media/legal/breastscreeningai_terms_and_conditions.pdf" target="_blank" rel="noopener noreferrer">Terms PDF <i class="lni lni-arrow-top-right"></i></a><a class="report-link-secondary" href="media/legal/breastscreeningai_privacy_policy.pdf" target="_blank" rel="noopener noreferrer">Privacy PDF <i class="lni lni-arrow-top-right"></i></a></div></article>
+      <section id="financials" class="ir-table-section"><div class="container">
+        <div class="ir-section-heading"><div><span>01</span><h2>Annual Financial Statements</h2></div><p>Financial statement access copies based on the signed annual and interim accounting records available in the source set.</p></div>
+        <div class="ir-report-box" data-ir-section="financials">
+          <div class="ir-report-tabs" role="group" aria-label="Annual financial statement years">
+            <button type="button" class="active" data-ir-filter="financials" data-ir-year="2026">2026</button>
+            <button type="button" data-ir-filter="financials" data-ir-year="2025">2025</button>
+            <button type="button" data-ir-filter="financials" data-ir-year="2024">2024</button>
+          </div>
+          <div class="ir-table-wrap">
+            <table class="ir-report-table">
+              <thead><tr><th>Title</th><th>Reporting Period</th><th>Category</th><th>Description</th><th>Attachment</th></tr></thead>
+              <tbody>
+                <tr data-ir-table="financials" data-ir-year="2026"><td>Interim Financial Statements 2026</td><td>Period ended 28 Feb 2026</td><td>Interim Financial Statements</td><td>Interim financial position, working-capital context, and source-backed limitations for the period ended 28 February 2026.</td><td><a href="media/reports/generated/breastscreeningai_interim_financial_statements_2026.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+                <tr data-ir-table="financials" data-ir-year="2025" hidden><td>Annual Financial Statements 2025</td><td>Year ended 31 Dec 2025</td><td>Annual Financial Statements</td><td>FY2025 annual financial statement covering financial position, subsidy-supported income, limited commercial revenue, risks, and management commentary.</td><td><a href="media/reports/generated/breastscreeningai_annual_financial_statements_2025.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+                <tr data-ir-table="financials" data-ir-year="2024" hidden><td>Annual Financial Statements 2024</td><td>Year ended 31 Dec 2024</td><td>Annual Financial Statements</td><td>FY2024 financial baseline used to assess operating scale, capitalization, liquidity, and grant-backed development.</td><td><a href="media/reports/generated/breastscreeningai_annual_financial_statements_2024.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div></section>
 
-      <section id="archive" class="report-section soft-blue"><div class="container">
-        <div class="section-heading"><p class="section-label">Archive</p><h2>Current public reporting set</h2><p>The archive below keeps the website materials grouped by purpose instead of by an investor-relations format that does not match the current public site.</p></div>
-        <div class="evidence-table-wrap">
-          <table>
-            <thead><tr><th>Document or page</th><th>Purpose</th><th>Key disclosed facts</th><th>Access</th></tr></thead>
-            <tbody>
-              <tr><td>Startup Voucher report</td><td>Public operation, objectives, pilot context, TRL position, support network.</td><td>Hospital da Luz pilot, CHTMAD fieldwork, TRL 5 progressing toward TRL 6, provider support including SNAP, Leyton, SAVEAS, KGSA, Complear and AAVANZ.</td><td><a href="voucher.html">Open page</a></td></tr>
-              <tr><td>Evidence page</td><td>Portfolio-level synthesis of research outputs and validation journey.</td><td>14 curated outputs, 12 scholarly outputs, 135 study participations and 25+ hospitals engaged.</td><td><a href="evidence.html">Open page</a></td></tr>
-              <tr><td>Story page</td><td>Public narrative and historical context for the initiative.</td><td>Background and relationship between research, product direction and broader initiative context.</td><td><a href="story.html">Open page</a></td></tr>
-              <tr><td>Terms and Privacy documents</td><td>Website legal and disclosure materials.</td><td>Terms, privacy, cookie and disclaimer PDFs available from the public repository.</td><td><a href="media/legal/breastscreeningai_terms_and_conditions.pdf" target="_blank" rel="noopener noreferrer">Open PDFs</a></td></tr>
-            </tbody>
-          </table>
+      <section id="presentations" class="ir-table-section"><div class="container">
+        <div class="ir-section-heading"><div><span>02</span><h2>IR Presentations</h2></div><p>Investor context documents limited to the facts and financial figures supported by the available records.</p></div>
+        <div class="ir-report-box" data-ir-section="presentations">
+          <div class="ir-report-tabs" role="group" aria-label="IR presentation years">
+            <button type="button" class="active" data-ir-filter="presentations" data-ir-year="2026">2026</button>
+            <button type="button" data-ir-filter="presentations" data-ir-year="2025">2025</button>
+            <button type="button" data-ir-filter="presentations" data-ir-year="2024">2024</button>
+          </div>
+          <div class="ir-table-wrap">
+            <table class="ir-report-table">
+              <thead><tr><th>Title</th><th>Document Date</th><th>Language</th><th>File Type</th><th>Attachment</th></tr></thead>
+              <tbody>
+                <tr data-ir-table="presentations" data-ir-year="2026"><td>IR Presentation 2026</td><td>28 Feb 2026</td><td>English</td><td>PDF</td><td><a href="media/reports/generated/breastscreeningai_ir_presentation_2026.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+                <tr data-ir-table="presentations" data-ir-year="2025" hidden><td>FY2025 Investor Relations Presentation</td><td>31 Dec 2025</td><td>English</td><td>PDF</td><td><a href="media/reports/generated/breastscreeningai_ir_presentation_2025.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+                <tr data-ir-table="presentations" data-ir-year="2024" hidden><td>IR Presentation 2024</td><td>31 Dec 2024</td><td>English</td><td>PDF</td><td><a href="media/reports/generated/breastscreeningai_ir_presentation_2024.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div></section>
 
-      <section id="comparison" class="report-section"><div class="container">
-        <div class="section-heading"><p class="section-label">Comparison</p><h2>Previous research and current pilot snapshots</h2><p>The chart compares a small set of published and pilot-era indicators already disclosed on the website. These figures come from different studies and should not be pooled statistically.</p></div>
-        <div class="report-grid-two">
-          <div class="chart-shell"><div class="report-panel-header"><div><h3>Evidence comparison</h3><p>Published 2022 study results compared with 2026 exploratory pilot indicators.</p></div><span><i class="lni lni-bar-chart"></i></span></div><div id="reports-comparison-chart" class="plotly-chart" role="img" aria-label="Grouped bar chart comparing disclosed previous research and current pilot figures"></div></div>
-          <aside class="report-panel"><div class="report-panel-header"><div><h3>Reporting notes</h3><p>Only public website figures are reused here.</p></div><span><i class="lni lni-notepad"></i></span></div><dl><div><dt>Previous research</dt><dd>27% decrease in false positives, 4% decrease in false negatives, 91% positive expectations and satisfaction, 3 minutes less per patient.</dd></div><div><dt>Current pilot</dt><dd>+11.82 percentage-point triage change, 81.82% decision stability, seven physicians, 110 paired observations.</dd></div><div><dt>Setting</dt><dd>Hospital da Luz exploratory pilot and CHTMAD fieldwork under the disclosed project context.</dd></div><div><dt>Boundary</dt><dd>Exploratory and descriptive reporting, not a pooled efficacy claim.</dd></div></dl></aside>
+      <section id="letters" class="ir-table-section"><div class="container">
+        <div class="ir-section-heading"><div><span>03</span><h2>IR Letters</h2></div><p>Founder-style period notes constrained to the financial evidence and explicitly marked source gaps.</p></div>
+        <div class="ir-report-box" data-ir-section="letters">
+          <div class="ir-report-tabs" role="group" aria-label="IR letter years">
+            <button type="button" class="active" data-ir-filter="letters" data-ir-year="2026">2026</button>
+            <button type="button" data-ir-filter="letters" data-ir-year="2025">2025</button>
+            <button type="button" data-ir-filter="letters" data-ir-year="2024">2024</button>
+          </div>
+          <div class="ir-table-wrap">
+            <table class="ir-report-table">
+              <thead><tr><th>Title</th><th>Document Date</th><th>Language</th><th>File Type</th><th>Attachment</th></tr></thead>
+              <tbody>
+                <tr data-ir-table="letters" data-ir-year="2026"><td>IR Letter 2026</td><td>28 Feb 2026</td><td>English</td><td>PDF</td><td><a href="media/reports/generated/breastscreeningai_ir_letter_2026.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+                <tr data-ir-table="letters" data-ir-year="2025" hidden><td>FY2025 Investor Relations Letter</td><td>31 Dec 2025</td><td>English</td><td>PDF</td><td><a href="media/reports/generated/breastscreeningai_ir_letter_2025.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+                <tr data-ir-table="letters" data-ir-year="2024" hidden><td>IR Letter 2024</td><td>31 Dec 2024</td><td>English</td><td>PDF</td><td><a href="media/reports/generated/breastscreeningai_ir_letter_2024.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div></section>
 
-      <section id="sources" class="report-section soft-green"><div class="container">
-        <div class="section-heading"><p class="section-label">Sources</p><h2>Evidence sources and supporting network</h2><p>This timeline places the main published evidence and programme support elements on one page so the report archive has a clearer structure.</p></div>
-        <div class="report-grid-two">
-          <div class="chart-shell"><div class="report-panel-header"><div><h3>Public evidence timeline</h3><p>Selected milestones across controlled studies, exploratory pilots and project support.</p></div><span><i class="lni lni-timer"></i></span></div><div id="reports-timeline-chart" class="plotly-chart" role="img" aria-label="Timeline of selected public evidence and support milestones between 2022 and 2026"></div></div>
-          <aside class="report-panel"><div class="report-panel-header"><div><h3>Publicly named providers</h3><p>Support roles already disclosed on the website.</p></div><span><i class="lni lni-handshake"></i></span></div><dl><div><dt>SNAP</dt><dd>Proposal development, project management and business development support.</dd></div><div><dt>Leyton</dt><dd>Startup Voucher and PRR technical reporting, cost-eligibility and communication compliance support.</dd></div><div><dt>SAVEAS and KGSA</dt><dd>Intellectual-property support and legal provider support.</dd></div><div><dt>Complear and AAVANZ</dt><dd>Regulatory and independent-validation discussions, plus EIC Pathfinder and Horizon Europe proposal support.</dd></div></dl></aside>
+      <section id="notices" class="ir-table-section"><div class="container">
+        <div class="ir-section-heading"><div><span>04</span><h2>IR News & Notice</h2></div><p>Source-backed company communications covering material financial, funding, recognition, and venture-development updates.</p></div>
+        <div class="ir-report-box" data-ir-section="notices">
+          <div class="ir-report-tabs" role="group" aria-label="IR news and notice years">
+            <button type="button" class="active" data-ir-filter="notices" data-ir-year="2026">2026</button>
+            <button type="button" data-ir-filter="notices" data-ir-year="2025">2025</button>
+            <button type="button" data-ir-filter="notices" data-ir-year="2024">2024</button>
+            <button type="button" data-ir-filter="notices" data-ir-year="2023">2023</button>
+          </div>
+          <div class="ir-table-wrap">
+            <table class="ir-report-table">
+              <thead><tr><th>Title</th><th>Publication Date</th><th>Category</th><th>Description</th><th>Attachment</th></tr></thead>
+              <tbody>
+                <tr data-ir-table="notices" data-ir-year="2026"><td>BreastScreening-AI Selected for the EIC Pre-Accelerator</td><td>27 Apr 2026</td><td>Funding News</td><td>Selection for EIC Pre-Accelerator support, including the documented program scale and unresolved payment terms.</td><td><a href="media/reports/generated/breastscreeningai_ir_news_eic_preaccelerator_selection_2026.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+                <tr data-ir-table="notices" data-ir-year="2026"><td>Interim FY2026 Financial Statements Available</td><td>15 Jun 2026</td><td>Investor Notice</td><td>Access notice for interim accounting records covering the period ended 28 February 2026.</td><td><a href="media/reports/generated/breastscreeningai_ir_notice_interim_fy2026_financial_statements.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+                <tr data-ir-table="notices" data-ir-year="2025" hidden><td>BreastScreening-AI Reports FY2025 Financial Results</td><td>15 Jun 2026</td><td>Financial Results</td><td>FY2025 financial highlights based on the signed annual balance sheet and income statement records.</td><td><a href="media/reports/generated/breastscreeningai_ir_news_fy2025_results.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+                <tr data-ir-table="notices" data-ir-year="2025" hidden><td>FY2025 Annual Financial Statements Available</td><td>15 Jun 2026</td><td>Investor Notice</td><td>Access notice for the financial statement package for the year ended 31 December 2025.</td><td><a href="media/reports/generated/breastscreeningai_ir_notice_fy2025_financial_statements.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+                <tr data-ir-table="notices" data-ir-year="2024" hidden><td>BreastScreening-AI Selected for S3E Start 2024</td><td>9 Sep 2024</td><td>Venture Development</td><td>Selection as one of 14 teams in a Southern European deep-tech venture-development program.</td><td><a href="media/reports/generated/breastscreeningai_ir_news_s3e_start_selection_2024.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+                <tr data-ir-table="notices" data-ir-year="2024" hidden><td>BreastScreening-AI Recognized as a 2024 WIPO Global Awards Finalist</td><td>12 Jul 2024</td><td>IP Recognition</td><td>Finalist recognition among 25 companies selected from 667 applications across 107 countries.</td><td><a href="media/reports/generated/breastscreeningai_ir_news_wipo_global_awards_finalist_2024.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+                <tr data-ir-table="notices" data-ir-year="2024" hidden><td>FY2024 Annual Financial Statements Available</td><td>15 Jun 2026</td><td>Investor Notice</td><td>Access notice establishing the financial reporting baseline for the year ended 31 December 2024.</td><td><a href="media/reports/generated/breastscreeningai_ir_notice_fy2024_financial_statements.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+                <tr data-ir-table="notices" data-ir-year="2023" hidden><td>BreastScreening-AI Named Among EIA Porto 2023 Top Teams</td><td>10 Aug 2023</td><td>Entrepreneurship Recognition</td><td>Top-ten recognition following a three-week venture-development program involving 100 international teams.</td><td><a href="media/reports/generated/breastscreeningai_ir_news_eia_porto_top_team_2023.pdf" target="_blank" rel="noopener noreferrer">Download <i class="lni lni-download"></i></a></td></tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div></section>
 
-      <section id="disclosure" class="report-section"><div class="container">
-        <div class="report-disclosure"><div><p class="section-label">Reporting boundary</p><h2>What this page does and does not claim</h2></div><p>This page summarizes public materials already disclosed in the repository. It does not add private data, unpublished site-specific outcomes, patient information, regulatory claims or new financial statements. Reported figures remain tied to their original study or pilot context, and larger prospective validation is still needed.</p></div>
-      </div></section>
     </main>
 
     <footer class="secondary-footer"><div class="container"><div class="secondary-footer-grid"><div class="secondary-footer-brand"><a href="index.html"><img src="assets/images/logo/logo-bs-ai-2.svg" alt="BreastScreening-AI" /></a><p>AI should strengthen, not replace, clinical judgement.</p><ul class="secondary-footer-social"><li><a href="https://www.linkedin.com/company/breastscreeningai" target="_blank" rel="noopener noreferrer" aria-label="BreastScreening-AI on LinkedIn"><i class="lni lni-linkedin-original"></i></a></li><li><a href="https://breastscreeningai.substack.com/feed" target="_blank" rel="noopener noreferrer" aria-label="BreastScreening-AI RSS feed"><i class="lni lni-rss-feed"></i></a></li></ul></div><nav class="secondary-footer-nav" aria-label="Business"><h2>Business</h2><ul><li><a href="platform.html">Platform</a></li><li><a href="workflow.html">Workflow</a></li><li><a href="https://www.crunchbase.com/organization/breastscreening-ai" target="_blank" rel="noopener noreferrer">Analytics</a></li><li><a href="https://www.f6s.com/breastscreeningai" target="_blank" rel="noopener noreferrer">Insights</a></li></ul></nav><nav class="secondary-footer-nav" aria-label="Support"><h2>Support</h2><ul><li><a href="https://github.com/BreastScreeningAI/meta/wiki" target="_blank" rel="noopener noreferrer">Documentation</a></li><li><a href="index.html#live-support">Live</a></li><li><a href="mailto:info@breastscreeningai.com">Contact</a></li><li><a href="faq.html">FAQs</a></li></ul></nav><nav class="secondary-footer-nav" aria-label="Company"><h2>Company</h2><ul><li><a href="https://github.com/BreastScreeningAI/meta" target="_blank" rel="noopener noreferrer">About</a></li><li><a href="story.html">Story</a></li><li><a href="https://wellfound.com/company/breastscreening-ai/jobs" target="_blank" rel="noopener noreferrer">Careers</a></li><li><a href="reports.html">Reports</a></li></ul></nav><nav class="secondary-footer-nav" aria-label="Legal"><h2>Legal</h2><ul><li><a href="media/legal/breastscreeningai_terms_and_conditions.pdf" target="_blank" rel="noopener noreferrer">Terms</a></li><li><a href="media/legal/breastscreeningai_privacy_policy.pdf" target="_blank" rel="noopener noreferrer">Privacy</a></li><li><a href="media/legal/breastscreeningai_cookie_policy.pdf" target="_blank" rel="noopener noreferrer">Cookies</a></li><li><a href="media/legal/breastscreeningai_disclaimer.pdf" target="_blank" rel="noopener noreferrer">Disclaimer</a></li></ul></nav><nav class="secondary-footer-nav" aria-label="Explore"><h2>Explore</h2><ul><li><a href="evidence.html">Evidence</a></li><li><a href="publications.html">Publications</a></li><li><a href="news.html">News</a></li><li><a href="media.html">Media</a></li></ul></nav></div><div class="secondary-footer-support"><div class="secondary-footer-funding"><a href="https://recuperarportugal.gov.pt/" target="_blank" rel="noopener noreferrer"><img src="assets/recognitions/startup_voucher_2025.png" alt="Startup Voucher 2025" /></a><a href="https://www.fct.pt/" target="_blank" rel="noopener noreferrer"><img src="assets/recognitions/2022_FCT_Logo_A_horizontal_branco_cropped.png" alt="Fundacao para a Ciencia e a Tecnologia" /></a></div><p class="secondary-footer-disclaimer">Research software and information only. BreastScreening-AI does not provide medical advice, diagnosis, or emergency services.</p></div></div></footer>
     <a href="#" class="scroll-top" aria-label="Back to top"><i class="lni lni-chevron-up"></i></a>
-    <script src="assets/js/bootstrap.min.js"></script><script src="assets/js/wow.min.js"></script><script src="assets/js/main.js"></script><script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+    <script src="assets/js/bootstrap.min.js"></script><script src="assets/js/wow.min.js"></script><script src="assets/js/main.js"></script>
     <script>
-      (function () {
-        var navLinks = document.querySelectorAll('.report-subnav a');
-        navLinks.forEach(function (link) {
-          link.addEventListener('click', function () {
-            navLinks.forEach(function (item) { item.classList.remove('active'); });
-            link.classList.add('active');
-          });
+      document.querySelectorAll("[data-ir-filter]").forEach(function (button) {
+        button.addEventListener("click", function () {
+          var table = button.getAttribute("data-ir-filter");
+          var year = button.getAttribute("data-ir-year");
+          document.querySelectorAll('[data-ir-filter="' + table + '"]').forEach(function (item) { item.classList.toggle("active", item === button); });
+          document.querySelectorAll('[data-ir-table="' + table + '"]').forEach(function (row) { row.hidden = row.getAttribute("data-ir-year") !== year; });
         });
-        if (navLinks[0]) navLinks[0].classList.add('active');
-
-        if (typeof Plotly === 'undefined') return;
-
-        var colors = {
-          navy: '#10233c',
-          blue: '#5f8fd8',
-          green: '#36a887',
-          pink: '#da4f91',
-          gray: '#66758a',
-          light: '#edf3f8'
-        };
-        var baseLayout = {
-          font: { family: 'Inter, Arial, sans-serif', color: colors.navy },
-          paper_bgcolor: 'rgba(0,0,0,0)',
-          plot_bgcolor: 'rgba(0,0,0,0)',
-          margin: { l: 52, r: 24, t: 26, b: 56 }
-        };
-        var config = { responsive: true, displayModeBar: false };
-
-        Plotly.newPlot('reports-comparison-chart', [
-          {
-            type: 'bar',
-            name: 'Previous research',
-            x: ['False positives', 'False negatives', 'Positive expectations'],
-            y: [27, 4, 91],
-            marker: { color: colors.blue, borderRadius: 8 },
-            hovertemplate: '%{x}: %{y}<extra>Previous research</extra>'
-          },
-          {
-            type: 'bar',
-            name: 'Current pilot',
-            x: ['Triage change', 'Decision stability', 'Physicians'],
-            y: [11.82, 81.82, 7],
-            marker: { color: colors.pink, borderRadius: 8 },
-            hovertemplate: '%{x}: %{y}<extra>Current pilot</extra>'
-          }
-        ], Object.assign({}, baseLayout, {
-          barmode: 'group',
-          yaxis: { title: 'Reported value', gridcolor: '#dfe7f0', zeroline: false },
-          xaxis: { tickfont: { size: 12 }, gridcolor: 'rgba(0,0,0,0)' },
-          legend: { orientation: 'h', y: -0.22 }
-        }), config);
-
-        Plotly.newPlot('reports-timeline-chart', [{
-          x: ['2022', '2023', '2025-2026', '2026'],
-          y: [1, 2, 3, 4],
-          mode: 'markers+text',
-          type: 'scatter',
-          text: ['Peer-reviewed clinician-AI study', 'Personalized communication study', 'Hospital da Luz and CHTMAD activities', 'Public Startup Voucher and evidence reporting'],
-          textposition: ['top center', 'bottom center', 'top center', 'bottom center'],
-          customdata: [
-            '27% lower false positives, 4% lower false negatives, 91% positive expectations, 3 minutes less per patient.',
-            'Published human-AI communication research cited on the evidence page.',
-            'Exploratory workflow, usability, triage support and structured reporting activities in relevant environments.',
-            'Public reporting on voucher, evidence, story and legal documents.'
-          ],
-          hovertemplate: '<b>%{text}</b><br>%{customdata}<extra></extra>',
-          marker: {
-            size: [22, 18, 24, 20],
-            color: [colors.blue, colors.green, colors.pink, colors.navy],
-            line: { color: '#ffffff', width: 2 }
-          },
-          textfont: { size: 11, color: colors.navy }
-        }], Object.assign({}, baseLayout, {
-          showlegend: false,
-          xaxis: { gridcolor: '#dfe7f0', zeroline: false },
-          yaxis: {
-            range: [0.4, 4.6],
-            tickvals: [1, 2, 3, 4],
-            ticktext: ['Published evidence', 'Human-AI design', 'Clinical integration', 'Public reporting'],
-            gridcolor: '#edf1f6',
-            zeroline: false
-          },
-          margin: { l: 150, r: 20, t: 24, b: 48 }
-        }), config);
-      }());
+      });
     </script>
   </body>
 </html>
