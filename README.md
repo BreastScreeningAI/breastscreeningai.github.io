@@ -9,10 +9,9 @@ This repository publishes the project's public-facing website, including:
 - legal documents intended for public release
 - communication assets approved for publication
 
-## Primary URLs
+## Primary URL
 
-- Preferred public URL: `https://breastscreeningai.github.io/`
-- Domain alias: `https://breastscreeningai.eu/`
+- Canonical public URL: `https://breastscreeningai.github.io/`
 
 ## Key Pages
 
@@ -34,8 +33,8 @@ Do not publish:
 - private legal or financial documents
 - infrastructure details, credentials, or internal endpoints
 
-All claims should be source-backed and reviewed for public release before publication.
+All claims should be source-backed, recorded in `CLAIMS_REGISTER.md` where applicable, and reviewed for public release before publication.
 
 ## Project Scope
 
-BreastScreening-AI is a human-centered clinical AI initiative focused on breast imaging workflows, multimodal decision support, and responsible evidence generation.
+BreastScreening-AI is a human-centered clinical AI initiative focused on breast imaging workflows, multimodal decision support, and responsible evidence generation. The website should describe clinical support and research activity without implying diagnosis, endorsement, regulatory authorization, or replacement of clinician judgement.
