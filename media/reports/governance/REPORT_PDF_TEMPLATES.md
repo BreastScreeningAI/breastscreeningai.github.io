@@ -47,7 +47,7 @@ All report assets must use a clean BreastScreening-AI visual style:
 - File naming: use stable descriptive lowercase filenames under `media/reports/generated` or `media/reports/templates`.
 - Public wording: never state or imply that the asset was AI-generated.
 - Avoid rejected wording, including `without investor-sensitive detail`.
-- Paired template rule: every public PDF should have an editable source template when practical. Use PPTX for presentation-style assets and Word for narrative or report-style assets.
+- Paired editable-source rule: every PDF linked from `reports.html` must have an exact editable companion file so it can be manually edited later if needed. The editable companion may be `.docx` or `.pptx`, depending on the asset. This rule is mandatory for Annual Financial Statements, IR Presentations, IR Letters, and IR News and Notice assets.
 - Design propagation rule: when the report design system changes, update the template files and any active report assets that use the old design, unless the user explicitly asks for a narrower update.
 
 ## Format Selection Rules
@@ -58,9 +58,13 @@ Use PPTX when the asset is a slide deck, pitch deck, IR presentation, board-styl
 
 Use Word when the asset is a narrative document, letter, report, announcement, notice, financial statement access copy, or review draft where prose editing, tracked changes, comments, and longer-form paragraphs matter.
 
-Use both PDF and PPTX for IR Presentations.
+Use PDF for the public access copy and an exact editable companion for every asset linked from `reports.html`.
 
-Use both PDF and Word for Annual Financial Statements, IR Letters, and IR News and Notice documents.
+Use `.docx` for narrative, report-style, notice-style, and statement-style assets when Word is the most practical manual editing format.
+
+Use `.pptx` for presentation-style assets when slide editing, layout control, and visual rhythm matter.
+
+Annual Financial Statements, IR Presentations, IR Letters, and IR News and Notice documents must therefore have at least these two files: one PDF and one matching editable source file in either `.docx` or `.pptx`.
 
 Use all three formats only when a document must exist as a public PDF, an editable narrative document, and a slide-based communication. This should be exceptional rather than the default.
 
@@ -79,6 +83,8 @@ Remove temporary inspect files, Office lock files, and other sidecar artifacts f
 Audit outcome on 2026-06-15: the template set was visually reviewed and improved. The Annual Financial Statements template was changed from dense table placeholders to larger readable financial cards, the document templates received stronger cover hierarchy, all template PDFs received BreastScreening-AI metadata, and page sizes were verified as A4 for document templates and 16:9 landscape for the presentation companion PDF.
 
 Word template outcome on 2026-06-15: Word templates were added for Annual Financial Statements, IR Letters, and IR News and Notice. These files are the preferred editable sources for narrative and statement-style report assets. The rendered Word templates were visually reviewed for page breaks, table readability, spacing, and clipping.
+
+Policy update on 24 July 2026: every PDF linked from `reports.html` must also have an exact editable companion file in `.docx` or `.pptx`. The companion format should match the practical editing workflow for the asset, and IR Presentations may use `.pptx` as their primary editable source.
 
 ## Template 1 - Annual Financial Statements
 
