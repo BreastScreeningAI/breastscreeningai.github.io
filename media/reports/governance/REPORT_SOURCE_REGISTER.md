@@ -219,6 +219,40 @@ Winter 2026:
 
 Historical sources should support narrative evolution and milestone chronology. They should not override current financial, regulatory, partnership, or clinical evidence.
 
+## IR News and Notice
+
+### Recent achievements update 2026
+
+Primary public sources:
+
+- `https://tecnico.ulisboa.pt/en/news/tecnico-spin-off-secures-e500000-to-support-breast-cancer-screening/`
+- `https://isr.tecnico.ulisboa.pt/breastscreening-ai-selected-for-the-eic-pre-accelerator/`
+- `https://cordis.europa.eu/project/id/101310071`
+
+Supporting public recognition sources:
+
+- `https://www.wipo.int/en/web/awards/global/2024/`
+- `https://south3e.eu/2024/09/09/s3e-start-2024-meet-the-research-team-breastscreening-ai/`
+
+Repository access copies and summaries:
+
+- `media/reports/generated/breastscreeningai_ir_news_recent_achievements_funding_momentum_2026.pdf`
+- `media/reports/generated/breastscreeningai_ir_news_recent_achievements_funding_momentum_2026.docx`
+
+Confirmed facts intended for public-safe reuse:
+
+- Tecnico Lisboa published EIC-related coverage on 20 May 2026.
+- ISR-Lisboa published EIC-related coverage on 28 April 2026.
+- CORDIS lists grant agreement `101310071`, EC signature date `17 June 2026`, project start date `1 July 2026`, and net EU contribution `EUR 489,941.62`.
+- WIPO listed BreastScreening-AI among the 2024 finalists.
+- South3E listed BreastScreening-AI among the 14 teams selected for S3E Start 2024.
+
+Required checks before republication:
+
+- Keep the approximately `EUR 500,000` media wording distinct from the more specific CORDIS figure `EUR 489,941.62`.
+- Do not state cash-receipt timing, commercial revenue scale, regulatory authorization, or customer adoption unless supported by separate controlling evidence.
+- Treat the report as a public momentum summary rather than a substitute for financial statements, clinical validation reports, or regulatory documentation.
+
 Current repository presentation assets:
 
 - `media/reports/generated/breastscreeningai_ir_presentation_2024.pdf`

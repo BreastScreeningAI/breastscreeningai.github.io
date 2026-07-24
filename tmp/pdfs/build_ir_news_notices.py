@@ -195,6 +195,54 @@ ASSETS = [
     },
     {
         "kind": "IR NEWS RELEASE",
+        "category": "Recent Achievements and Funding Momentum",
+        "headline": "BreastScreening-AI Publishes Recent Achievements and Funding Momentum Update 2026",
+        "date": "24 July 2026",
+        "summary": (
+            "BreastScreening-AI has published a source-backed update summarizing recent public achievements, "
+            "including EIC Pre-Accelerator selection, public CORDIS registration, institutional recognition, "
+            "and reporting-maturity milestones relevant to investors and strategic partners."
+        ),
+        "metadata": [
+            ("Publication date", "24 July 2026"),
+            ("Coverage period", "Recent public milestones through July 2026"),
+            ("Document type", "Source-backed recent-achievements update"),
+            ("Status", "Public company communication asset"),
+        ],
+        "metrics": [
+            ("EUR 489,941.62", "CORDIS net EU contribution"),
+            ("17 June 2026", "EC signature date in CORDIS"),
+            ("1 July 2026", "CORDIS project start date"),
+            ("70", "EIC Pre-Accelerator selected companies"),
+            ("25", "WIPO 2024 finalists"),
+            ("14", "S3E Start 2024 selected teams"),
+        ],
+        "announcement": [
+            "Tecnico Lisboa published coverage on 20 May 2026 stating that BreastScreening-AI secured approximately EUR 500,000 in support through the European Innovation Council Pre-Accelerator pathway.",
+            "ISR-Lisboa published related institutional coverage on 28 April 2026 confirming that BreastScreening-AI had been selected for the EIC Pre-Accelerator.",
+            "The public CORDIS fact sheet for grant agreement 101310071 records an EC signature date of 17 June 2026, a project start date of 1 July 2026, and a net EU contribution of EUR 489,941.62 for the BreastScreening-AI project coordinated by SensiPerception, LDA.",
+            "The current update also links recent momentum to earlier public recognition milestones, including finalist status in the 2024 WIPO Global Awards and selection for the 2024 S3E Start venture-development program.",
+            "Together, these milestones indicate stronger institutional visibility, public funding validation, and a more structured reporting baseline. They do not by themselves establish clinical authorization, customer revenue scale, or unrestricted commercial deployment.",
+        ],
+        "relevance": (
+            "This update consolidates the strongest recent public signals relevant to investor review: European funding validation, public project registration, institutional recognition, and an increasingly structured reporting posture. It is useful as a website-safe momentum summary because the core statements can be tied to named public sources rather than private negotiations or unpublished operating materials."
+        ),
+        "sources": [
+            "Técnico Lisboa article published on 20 May 2026: Tecnico spin-off secures EUR 500,000 to support breast cancer screening.",
+            "ISR-Lisboa article published on 28 April 2026: BreastScreening-AI Selected for the EIC Pre-Accelerator.",
+            "European Commission CORDIS fact sheet for grant agreement 101310071, last update shown as 22 June 2026.",
+            "WIPO Global Awards 2024 finalist listing.",
+            "South3E S3E Start 2024 team profile published on 9 September 2024.",
+        ],
+        "limits": [
+            "The reviewed public sources do not establish the exact cash-receipt timing, pre-financing percentage, or full payment schedule associated with the EIC-linked funding record.",
+            "Institutional news coverage and public project records do not establish audited clinical outcomes, commercial revenue scale, valuation, signed customer contracts, or regulatory authorization.",
+            "The approximate EUR 500,000 figure reported in institutional news should be read alongside the CORDIS net EU contribution value of EUR 489,941.62, which is the more specific public registry figure currently identified.",
+        ],
+        "filename": "breastscreeningai_ir_news_recent_achievements_funding_momentum_2026",
+    },
+    {
+        "kind": "IR NEWS RELEASE",
         "category": "Financial Results",
         "headline": "BreastScreening-AI Reports FY2025 Financial Results",
         "date": "15 June 2026",
