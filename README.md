@@ -1,16 +1,41 @@
-# Institute for Systems and Robotics (ISR-Lisboa)
-![alt tag](assets/isr-logo.png "Logo")
+# BreastScreening-AI Website
 
-## MIMBCD-UI Project Page
+Public website repository for [BreastScreening-AI](https://breastscreeningai.github.io/).
 
-Abstracted from a Project Report at [ISR](http://welcome.isr.tecnico.ulisboa.pt/), [IST](http://tecnico.ulisboa.pt/) - [Universidade de Lisboa](http://ulisboa.pt/).
+This repository publishes the project's public-facing website, including:
 
-### Created by
+- main site pages
+- evidence and reporting pages
+- legal documents intended for public release
+- communication assets approved for publication
 
-[Francisco Maria Calisto](http://web.tecnico.ulisboa.pt/francisco.calisto/ "Francisco's Academic Profile")  
+## Primary URLs
 
-[DEI](https://fenix.tecnico.ulisboa.pt/departamentos/dei/o-dei)  
+- Preferred public URL: `https://breastscreeningai.github.io/`
+- Domain alias: `https://breastscreeningai.eu/`
 
-[ISR](http://welcome.isr.tecnico.ulisboa.pt/), [IST](http://tecnico.ulisboa.pt/) - [ULisboa](http://ulisboa.pt/)
+## Key Pages
 
-Contact Info: [francisco.calisto@tecnico.ulisboa.pt](francisco.calisto@tecnico.ulisboa.pt)
+- `index.html` - main site
+- `evidence.html` - evidence overview
+- `voucher.html` - Startup Voucher public reporting page
+- `reports.html` - public reports archive
+- `story.html` - project story page
+
+## Publication Rules
+
+This repository is public. Only public-safe material should be committed here.
+
+Do not publish:
+
+- confidential investor material
+- unpublished clinical data
+- personal data
+- private legal or financial documents
+- infrastructure details, credentials, or internal endpoints
+
+All claims should be source-backed and reviewed for public release before publication.
+
+## Project Scope
+
+BreastScreening-AI is a human-centered clinical AI initiative focused on breast imaging workflows, multimodal decision support, and responsible evidence generation.
