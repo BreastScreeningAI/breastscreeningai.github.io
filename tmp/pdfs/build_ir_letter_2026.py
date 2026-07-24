@@ -29,6 +29,7 @@ PALE = "EAF4FB"
 TITLE = "IR Letter 2026"
 PERIOD = "Interim period ended 28 February 2026"
 PUBLICATION_DATE = "15 June 2026"
+CLINICAL_SITE_10 = "Clinical Site 10"
 
 KEY_FIGURES = [
     ("Total assets", "EUR 7,476.39"),
@@ -54,7 +55,7 @@ SECTIONS = [
         "Operational Progress",
         [
             "Operationally, the company continued to develop a human-centered, multimodal breast-imaging decision-support project grounded in a long research lineage. The public narrative remains focused on strengthening clinical judgment rather than replacing it, and on separating confirmed evidence from future plans.",
-            "Clinical and workflow work continued through documented field activity, including CHTMAD and ULSTMAD research periods in November 2025 and January 2026. Quantitative results from that work should only be presented after consolidation and approval. Earlier controlled and exploratory studies remain useful evidence, but their limitations must stay visible in investor and public communication.",
+            f"Clinical and workflow work continued through documented field activity at {CLINICAL_SITE_10} during November 2025 and January 2026. Quantitative results from that work should only be presented after consolidation and approval. Earlier controlled and exploratory studies remain useful evidence, but their limitations must stay visible in investor and public communication.",
         ],
     ),
     (

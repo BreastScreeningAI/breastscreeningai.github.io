@@ -27,6 +27,10 @@ WHITE = "FFFFFF"
 TITLE = "IR Presentation 2026"
 PERIOD = "Interim period ended 28 February 2026"
 PUBLICATION_DATE = "15 June 2026"
+CLINICIAN_1 = "Clinician 1"
+CLINICAL_SITE_1 = "Clinical Site 1"
+CLINICAL_SITE_10 = "Clinical Site 10"
+CLINICAL_SITE_18 = "Clinical Site 18"
 
 
 SLIDES = [
@@ -68,7 +72,7 @@ SLIDES = [
         "title": "Research Lineage",
         "bullets": [
             "Documented lineage: MIMBCD-UI to MIDA and BreastScreening to MIA-BREAST to BreastScreening-AI and AI-Radiologist.",
-            "Earliest documented fieldwork began on 20 November 2015 at Hospital Amadora-Sintra with radiologist Clara Aleluia.",
+            f"Earliest documented fieldwork began on 20 November 2015 at {CLINICAL_SITE_1} with {CLINICIAN_1}.",
             "The work evolved from clinical requirements and multimodal imaging into explainability, trust, workload, adoption, structured reporting, and responsible AI.",
         ],
         "cards": [("Start", "20 Nov 2015"), ("Lineage", "2015 to 2026"), ("Core method", "Human-centered")],
@@ -95,7 +99,7 @@ SLIDES = [
     {
         "title": "Exploratory Clinical Work",
         "bullets": [
-            "Hospital da Luz exploratory study involved seven physicians, approximately 11 patients, 23 images, and 110 paired observations.",
+            f"{CLINICAL_SITE_18} exploratory study involved seven physicians, approximately 11 patients, 23 images, and 110 paired observations.",
             "Exploratory triage-level decision accuracy increased by 11.82 percentage points, with 81.82% decision stability and p = 0.0036.",
             "The study is exploratory and limited by sample size. BI-RADS remains the primary clinical reference.",
         ],
@@ -104,7 +108,7 @@ SLIDES = [
     {
         "title": "Clinical Workflow Development",
         "bullets": [
-            "CHTMAD/ULSTMAD fieldwork was documented from 17 to 21 November 2025, 5 to 9 January 2026, and 26 to 30 January 2026.",
+            f"{CLINICAL_SITE_10} fieldwork was documented from 17 to 21 November 2025, 5 to 9 January 2026, and 26 to 30 January 2026.",
             "Focus areas included structured reporting, human-machine readability, and ethics-approved anonymized research.",
             "No consolidated quantitative results should be claimed until analysis is complete. Infrastructure access remains a dependency.",
         ],
@@ -189,8 +193,8 @@ SLIDES = [
         "bullets": [
             "Confirm EIC Pre-Accelerator payment schedule, pre-financing percentage, and first cash receipt.",
             "Maintain working-capital discipline and supplier-liability control.",
-            "Complete Hospital da Luz final reporting.",
-            "Resolve ULSTMAD infrastructure dependencies.",
+            f"Complete {CLINICAL_SITE_18} final reporting.",
+            f"Resolve {CLINICAL_SITE_10} infrastructure dependencies.",
             "Reconcile public claims with source-backed evidence.",
             "Preserve conservative medical, financial, regulatory, and partnership language.",
         ],

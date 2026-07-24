@@ -11,6 +11,7 @@ from docx.shared import Pt, RGBColor
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT = ROOT / "media" / "reports" / "generated"
+CLINICAL_SITE_10 = "Clinical Site 10"
 
 NAVY = "102A43"
 BLUE = "1479D1"
@@ -122,7 +123,7 @@ LETTERS = [
             "The first months of 2026 were defined by disciplined execution under constrained resources. For the interim period ended 28 February 2026, the company reported total assets of EUR 7,476.39, cash and deposits of EUR 258.30, equity of EUR -1,064.88, liabilities of EUR 8,541.27, and supplier liabilities of EUR 7,866.32.",
             "The interim net result was EUR -4,575.68. The interim result has not been annualized and should not be interpreted as a full-year forecast.",
             "Operationally, the company continued to develop a human-centered, multimodal breast-imaging decision-support project grounded in a long research lineage. The public narrative remains focused on strengthening clinical judgment rather than replacing it, and on separating confirmed evidence from future plans.",
-            "Clinical and workflow work continued through documented field activity, including CHTMAD and ULSTMAD research periods in November 2025 and January 2026. Quantitative results from that work should only be presented after consolidation and approval. Earlier controlled and exploratory studies remain useful evidence, but their limitations must stay visible in investor and public communication.",
+            f"Clinical and workflow work continued through documented field activity at {CLINICAL_SITE_10} during November 2025 and January 2026. Quantitative results from that work should only be presented after consolidation and approval. Earlier controlled and exploratory studies remain useful evidence, but their limitations must stay visible in investor and public communication.",
             "The broader funding context progressed after the interim reporting date. Source-backed records indicate that BreastScreening-AI was selected for the EIC Pre-Accelerator, with potential support of up to EUR 500,000 under Horizon Europe Lump Sum Grant proposal 101310071 for an 18-month duration. The Grant Agreement was ready for signature on 10 June 2026 and signed by the coordinator on 12 June 2026, while EU services signature, final payment schedule, pre-financing percentage, and exact payment date were not confirmed in the reviewed source set.",
             "The main challenge is credibility under constraint. The company has research depth, recognized venture-development milestones, and a credible grant trajectory, but the reviewed evidence does not establish recurring commercial revenue, paid clinical deployments, customer contracts, regulatory authorization, or a valuation.",
             "Management's response has been to improve structure and traceability across public pages, claims governance, evidence reporting, financial communication, and media assets. That approach helps make the company more understandable without overstating what has been validated.",
