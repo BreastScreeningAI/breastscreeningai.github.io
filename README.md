@@ -9,9 +9,10 @@ This repository publishes the project's public-facing website, including:
 - legal documents intended for public release
 - communication assets approved for publication
 
-## Primary URL
+## Primary URLs
 
-- Canonical public URL: `https://breastscreeningai.github.io/`
+- Shared GitHub Pages URL: `https://breastscreeningai.github.io/`
+- Public redirect target: `https://breastscreeningai.eu/`
 
 ## Key Pages
 
